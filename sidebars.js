@@ -35,6 +35,14 @@ module.exports = {
     'security',
     'deployed-contracts',
     'victoria',
-    'faq',
+    {
+      type: 'category',
+      label: 'FAQ',
+      items: [
+        'faq/staking',
+        'faq/claymatic',
+        'faq/claystack',
+      ],
+    },
   ],
 }

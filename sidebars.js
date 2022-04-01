@@ -35,5 +35,6 @@ module.exports = {
     'security',
     'deployed-contracts',
     'victoria',
+    'faq',
   ],
 }

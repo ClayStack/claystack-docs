@@ -12,7 +12,7 @@ Rewards APR can range depending on the percentage of MATIC staked across the net
 To read more about [Staking on Polygon PoS](https://polygon.technology/staking/)
 
 ### Unstaking Conditions
-ClayStack Standard Unstake feature will use Polygon's checkpoint system to unstake, which currently requires the user to wait for a period of 80 checkpoints before the locked MATIC can be released. Lately this translate in a period of 3-5 days, but highly depends on network conditions.
+ClayStack Standard Unstake feature will use Polygon's checkpoint system to unstake, which currently requires the user to wait for a period of 80 checkpoints before the locked MATIC can be released. Lately this translates into a period of 3-5 days, but highly depends on network conditions.
 
 To track Polygon's checkpoints, [continue here](https://wallet.polygon.technology/staking/)
 

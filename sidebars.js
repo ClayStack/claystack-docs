@@ -34,12 +34,6 @@ module.exports = {
     },
     'security',
     'deployed-contracts',
-    {
-      type: 'category',
-      label: 'Victoria Testnet',
-      items: [
-        'victoria/victoria',
-      ],
-    },
+    'victoria',
   ],
 }

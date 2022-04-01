@@ -28,15 +28,6 @@ ClayStack's contract offers a direct unstaking mechanism, which leverages the Po
 
 ClayStack's contract offers a unique feature acting as a liquidity pool, where users can unstake and immediately receive the underlying Token. The feature removes the need for any waiting time, yet there may be fees and limits on amounts.
 
-### Live Protocols
-
-- [csMATIC](/claymatic/overview) on Ethereum
-- [csMATIC](/claymatic/overview) on Polygon
-
-### Testnet Protocols
-
-- csGRT on Ethereum
-
 [//]: # (- [ClayStack LitePaper]&#40;#&#41;)
 
 [//]: # ()

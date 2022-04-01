@@ -1,48 +1,28 @@
 # RoleManager.sol
 
-MATIC's staking uses [ValidatorShare](https://github.com/maticnetwork/contracts/blob/main/contracts/staking/validatorShare/ValidatorShare.sol) contract for each validator node. ClayMain will stake across the nodes on a regular basis. When a withdrawal request comes in, the contract will immediately create an unstake order from a given validator, and create an order for the user to claim the funds past the unbonding period. This approach leverages MATIC's systems of order Ids to claim a given unstake request.
+Implements [@openzeppelin/contracts/access/AccessControl.sol](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v4.4/contracts/access/AccessControl.sol)
+
+## Roles
+
+```sol
+bytes32 public constant TIMELOCK_ROLE = keccak256("TIMELOCK_ROLE");
+bytes32 public constant TIMELOCK_UPGRADES_ROLE = keccak256("TIMELOCK_UPGRADES_ROLE");
+bytes32 public constant CS_SERVICE_ROLE = keccak256("CS_SERVICE_ROLE");
+```
 
 ## View Methods
 
-### name()
+### checkRole()
 
-Returns the name of the token
-
-```solidity
-function name() returns (string)
-```
-
-### symbol()
-
-Returns the symbol of the token, usually a shorter version of the name
-
-```solidity
-function symbol() returns (string)
-```
-
-## Methods
-
-### transfer()
-
-Moves `_amount` tokens from the caller's account to the `_recipient` account.
+Returns a boolean value indicating whether `_account` has role `_role` or not.
 
 ```sol
-function transfer(address _recipient, uint256 _amount) returns (bool)
+function checkRole(bytes32 _role, address _account) returns (bool)
 ```
-
-> **Note:**
-> Requirements:
-> - `_recipient` cannot be the zero address.
-> - the caller must have a balance of at least `_amount`.
-> - the contract must not be paused.
 
 #### Parameters:
 
-| Name         | Type      | Description                  |
-| ------------ | --------- | ---------------------------- |
-| `_recipient` | `address` | Address of tokens recipient  |
-| `_amount`    | `uint256` | Amount of tokens to transfer |
-
-#### Returns:
-
-A boolean value indicating whether the operation succeeded.
+| Name        | Type      | Description                  |
+| ----------- | --------- | ---------------------------- |
+| `_role` | `bytes32` | bytes32 hash of role.  |
+| `_account`   | `address` |  Address of entity to be checked. |

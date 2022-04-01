@@ -1,15 +1,35 @@
-# Security
+# Security & Governance
+
+At ClayStack, security is our top most concern, thus we invest in both creating secure protocols and secure processes for the safety of funds and the reliability of the protocol.
+
+### Audits
+ClayStack's ClayMatic protocol has been audited by ChainSecurity, deemed one of the top firms in the industry. ChainSecurity's audit reports no medium, high, nor critical vulnerabilities which attests to ClayStack's commitment to security.
+
+[Audit Report](https://chainsecurity.com/security-audit/claystack-matic/)
+
+### Governance
+
+ClayStack is currently governed by the ClayStack Foundation. ClayStack is planning to transition to a DAO, where the DAO's main responsibilities would be:
+- Custody of assets
+- Adjustment of fees
+- Grants proposals and approvals
+- Community rewards
+- Cross-chain ecosystem
+
+### Operations TimeLock
+For all internal operations to ensure the on-going operation of the protocol, from fees setting to node delegation. The protocol enforces a TimeLock protocol where any change has to be proposed and approved before being executed.
+
+See on [Etherscan](https://etherscan.io/address/0x7a1104Feb0D460Aa437008e54D7D6Db0bA7e8876)
 
 ```
-TODO
-Audit
-Governance
-Upgrades
-Multi-sigs
+0x7a1104Feb0D460Aa437008e54D7D6Db0bA7e8876
 ```
-The ClayStack DAO is a Decentralized Autonomous Organization that manages the liquid staking protocol by deciding on key parameters (e.g., setting fees, assigning node operators and oracles, etc.) through the voting power of governance token (DPG) holders.
 
-Also, the DAO will accumulate service fees and spend them on insurance, research, development, and protocol upgrades. Initial DAO members will take part in the threshold signature for Ethereum 2.0 by making BLS threshold signatures.
+### Upgrades TimeLock
+For any contract upgrade, rhe protocol enforces a TimeLock protocol where any change has to be proposed and approved before being executed.
 
-Since WithdrawalsManagerStub contract has been deployed, new validators withdrawal credentials point to WithdrawalsManagerStub contract controlled by ClayStack DAO.
-Validators before that deployment have withdrawal credentials pointing to mulsig wallet.
+See on [Etherscan](https://etherscan.io/address/0x376b467dFf007dD8d3f24404cAddff7F72257Fe4)
+
+```
+0x376b467dFf007dD8d3f24404cAddff7F72257Fe4
+```

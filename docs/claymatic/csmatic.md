@@ -21,7 +21,7 @@ See on [Etherscan](https://etherscan.io/token/0x38b7bf4eecf3eb530b1529c9401fc37d
 ### Polygon
 ClayStack Staked MATIC (PoS) is the csMATIC mapped token. Anytime you interact with csMATIC tokens, verify the addresses correspond.
 
-See on [Polygonscan](https://polygonscan.com/address/0x7ed6390f38d554B8518eF30B925b46972E768AF8) and [Token Mapper](https://mapper.polygon.technology/)
+See on [Polygonscan](https://polygonscan.com/token/0x7ed6390f38d554B8518eF30B925b46972E768AF8) and [Token Mapper](https://mapper.polygon.technology/)
 ```
 0x7ed6390f38d554B8518eF30B925b46972E768AF8
 ```

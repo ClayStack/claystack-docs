@@ -1,48 +1,35 @@
 # ClayMatic.sol
 
-MATIC's staking uses [ValidatorShare](https://github.com/maticnetwork/contracts/blob/main/contracts/staking/validatorShare/ValidatorShare.sol) contract for each validator node. ClayMain will stake across the nodes on a regular basis. When a withdrawal request comes in, the contract will immediately create an unstake order from a given validator, and create an order for the user to claim the funds past the unbonding period. This approach leverages MATIC's systems of order Ids to claim a given unstake request.
-
 ## View Methods
 
-### name()
+### getExchangeRate()
 
-Returns the name of the token
-
-```solidity
-function name() returns (string)
-```
-
-### symbol()
-
-Returns the symbol of the token, usually a shorter version of the name
+Returns the current exchange rate accounting for any slashing or donations and a boolean value indicating whether a slashing event has occurred (Note: Slashing is not currently enabled in Polygon).
 
 ```solidity
-function symbol() returns (string)
+function getExchangeRate() returns (uint256, bool)
 ```
 
 ## Methods
 
-### transfer()
+### deposit()
 
-Moves `_amount` tokens from the caller's account to the `_recipient` account.
+Sends Token to contract and mints csToken to `msg.sender`.
 
 ```sol
-function transfer(address _recipient, uint256 _amount) returns (bool)
+function deposit(uint256 amountToken) returns (bool)
 ```
 
 > **Note:**
 > Requirements:
-> - `_recipient` cannot be the zero address.
-> - the caller must have a balance of at least `_amount`.
-> - the contract must not be paused.
+> - `msg.sender` must have approved `amountToken` of Token to this contract.
 
 #### Parameters:
 
 | Name         | Type      | Description                  |
 | ------------ | --------- | ---------------------------- |
-| `_recipient` | `address` | Address of tokens recipient  |
-| `_amount`    | `uint256` | Amount of tokens to transfer |
+| `_amountToken` | `uint256` | Amount of Token sent from msg.sender to this contract  |
 
 #### Returns:
 
-A boolean value indicating whether the operation succeeded.
+Bool confirmation of transaction.

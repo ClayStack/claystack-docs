@@ -1,7 +1,11 @@
 # Fees
-```
-TODO
-Add explanation of fees
-Add links to check altest fees in contract
-```
-Description of fees, how it work and values
+
+
+| Fee Type                    | ClayMatic | Description                                                                                                                                                                                                                                                                                                    |
+|-----------------------------|-----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Staking Fee                 | **0%**    | Staking fees are paid directly to the protocol when staking assets. The fees are paid in the native token.                                                                                                                                                                                                     |
+| Deposit Fee                 | **0%**    | Deposit fees are paid to ClayStack for staking your assets. The fees are paid in the native token.                                                                                                                                                                                                             |
+| Reward Fee                  | **10%**   | The reward fee is the commission portion from staking rewards towards ClayStack's treasury. It doesn't include the validator fees, ranging between 5-10%. _<br/><br/>Note: Through the app, the reported APY is calculated based on the latest csMATIC price changes and includes rewards and validator fees._ |
+| Unstake Fee                 | **0%**    | Unstake fees are paid to ClayStack for unstaking your assets. The fees are paid in csMATIC.                                                                                                                                                                                                                    |
+| Flash Exit Fee (Polygon) | **2.5%**  | Unstake fees are paid to ClayStack for unstaking through the liquidity pool.                                                                                                                                                                                                                                   |
+---

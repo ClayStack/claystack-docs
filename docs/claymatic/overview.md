@@ -1,19 +1,28 @@
 # Overview
 
-### ClayMain
+ClayMatic is the staking protocol implementation for the Polygon PoS. A user stakes and receives csMATIC which accrues staking rewards without the need of claiming or re-staking.
+
+Polygon's staking protocol lives on Ethereum, where ClayMatic pools MATIC from deposits. The ERC-20 token is then staked across trusted validating nodes and ClayMatic will claim and re-stake rewards on a regular basis.
+
+### Staking Rewards
+Polygon has allocated 12% of its total supply of 10 billion tokens to fund the staking rewards. These rewards are to be distributed over 5 years across participating validating nodes and delegators. Through ClayStack, the user delegates MATIC across several trusted validators.
+
+Rewards APR can range depending on the percentage of MATIC staked across the network. Try the [Reward Calculator](https://wallet.polygon.technology/staking/rewards-calculator/)
+
+To read more about [Staking on Polygon PoS](https://polygon.technology/staking/)
+
+### Unstaking Conditions
+ClayStack Standard Unstake feature will use Polygon's checkpoint system to unstake, which currently requires the user to wait for a period of 80 checkpoints before the locked MATIC can be released. Lately this translate in a period of 3-5 days, but highly depends on network conditions.
+
+To track Polygon's checkpoints, [continue here](https://wallet.polygon.technology/staking/)
+
+### Polygon's Staking Contracts
+ClayMatic interacts directly with Polygon's staking contracts, and not with any validating node. This delegated staking structure ensures maximum safety of the users as funds staked are protected by Polygon's contracts and are at no point in custody by the validating node.
+
+To understand more about the contract inner workings, see [StakeManager.sol](https://github.com/maticnetwork/contracts/blob/main/contracts/staking/stakeManager/StakeManager.sol) and [ValidatorShare.sol](https://github.com/maticnetwork/contracts/blob/main/contracts/staking/validatorShare/ValidatorShare.sol)
+
+### Ethereum
+See on [Etherscan](https://etherscan.io/address/0x91730940DCE63a7C0501cEDfc31D9C28bcF5F905)
 ```
-TODO
-Edit content
+0x91730940DCE63a7C0501cEDfc31D9C28bcF5F905
 ```
-ClayMain upgradable contract (aka ClayMatic for MATIC or ClayGraph for GRT) is the core contract that acts as a liquid staking pool aggregator. It is responsible for token deposits, minting and burning liquid staking tokens (csTokens), staking/unstaking funds to several nodes, and applying fees.
-
-Deposits/Withdrawals come in and the contract keeps its own accounting records. On a regular basis (e.g. daily basis) an off-chain service will call the public method autobalance() thus triggering the staking of funds into the validating nodes. Anyone can call this method.
-
-#### Exchange Rate
-The exchange rate of Token to csToken (e.g. MATIC to csMATIC) is calculated as the total amount of Tokens (deposits + rewards + other additions) over the supply of csToken.
-
-The value of csToken will increase over time with respect to the base Token. Some protocols may incur in slashing, thus the exchange rate can in turn decrease.
-
-## MATIC
-
-MATIC's staking uses [ValidatorShare](https://github.com/maticnetwork/contracts/blob/main/contracts/staking/validatorShare/ValidatorShare.sol) contract for each validator node. ClayMain will stake across the nodes on a regular basis. When a withdrawal request comes in, the contract will immediately create an unstake order from a given validator, and create an order for the user to claim the funds past the unbonding period. This approach leverages MATIC's systems of order Ids to claim a given unstake request.

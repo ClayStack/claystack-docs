@@ -1,6 +1,21 @@
 # Staking & Unstaking
+
+### How to Stake & Unstake
+
+To start your staking journey you can join the testnet at https://victoria.claystack.com or dive-in directly at https://app.claystack.com
+
+#### Connect Metamask
+
+#### Approve Token
+
+#### Stake
+
+#### Flash Exit
+
+#### Standard Unstake
+
+#### Claiming
 ```
 TODO
-Describe how to stake/unstake for the user
+How to videos
 ```
-From the user perspective, ClayStack for Polygon user interface will be accessible at https://app.claystack.com

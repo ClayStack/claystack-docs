@@ -1,13 +1,14 @@
 # Autobalancer
+
+ClayMatic pools MATIC from different users and regularly stakes across trusted validators through an external call to the contract. Anyone is able to call such function and ClayStack ensures its constant operation to maximize yield.
+
+#### autoBalance()
+
+Claims rewards, transfers fees to vault and stakes into trusted nodes
+
+```solidity
+function autoBalance() returns (bool)
 ```
-TODO
-Adapt
-Add links on monitoring last time it ran
-```
-1. Updates **funds.stakedDeposit** from validators
-2. The contract will check for any extra tokens outside the regular flow (see [Donations](#donation-accounting))
-3. For each node with an active stake, [withdrawRewards](https://github.com/maticnetwork/contracts/blob/main/contracts/staking/validatorShare/ValidatorShare.sol#L161)
-4. Transfer any accrued fees to the vault
-5. Resets precision accuracy for balancing (see [Precision Protections & Balancing](#precision-protections--balancing))
-6. Given current deposits, calculate desired liquidity pool
-7. Sequentially stake new deposits to all the active nodes
+
+#### Latest Calls
+The latest runs of autobalancer can be identified on Etherscan with method [`0x53017afc`](https://etherscan.io/address/0x91730940DCE63a7C0501cEDfc31D9C28bcF5F905) or by tracking ClayStack's autobalancer [caller](https://etherscan.io/address/0x83e58c288059cbf489f606401dc4b7ca6167d2f2).

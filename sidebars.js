@@ -1,15 +1,16 @@
 module.exports = {
   docs: [
     'introduction',
-    'claystack',
+    // 'claystack',
     {
       type: 'category',
       label: 'Guides',
       items: [
         'guides/staking',
-        'guides/node-operators',
+        // 'guides/node-operators',
       ],
     },
+      'architecture',
     {
       type: 'category',
       label: 'ClayMatic',
@@ -17,8 +18,8 @@ module.exports = {
           'claymatic/overview',
           'claymatic/csmatic',
           'claymatic/autobalancer',
-          'claymatic/rewards',
           'claymatic/fees',
+          'claymatic/limits',
       ],
     },
     {
@@ -33,5 +34,12 @@ module.exports = {
     },
     'security',
     'deployed-contracts',
+    {
+      type: 'category',
+      label: 'Victoria Testnet',
+      items: [
+        'victoria/victoria',
+      ],
+    },
   ],
 }

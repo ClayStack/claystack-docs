@@ -6,7 +6,7 @@ slug: /
 
 ClayStack is a decentralized liquid staking protocol that unlocks the liquidity of staked assets in Proof-of-Stake (PoS) networks. When users deposit their stakable tokens in ClayStack’s smart contracts, it issues csTokens that are fully backed, fully fungible value-accrual tokens. These tokens increase in value as they start receiving the staking rewards from the network.
 
-Users can also utilize these tokens as base capital to participate in other DeFi protocols. The combined yield from staking rewards and participating in DeFi compounds over time increasing the net profit for the user.
+Users can also utilize these tokens as base capital to participate in other DeFi protocols. The combined yield from staking rewards and participating in DeFi compounds over time, increasing the net profit for the user.
 
 ClayStack is accessible at https://app.claystack.com
 

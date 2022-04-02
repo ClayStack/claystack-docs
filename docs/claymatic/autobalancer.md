@@ -1,10 +1,10 @@
 # Autobalancer
 
-ClayMatic pools MATIC from different users and regularly stakes across trusted validators through an external call to the contract. Anyone is able to call such function and ClayStack ensures its constant operation to maximize yield.
+ClayMatic pools MATIC from different users and regularly stakes across trusted validators through an external call to the contract. Anyone is able to call such function, and ClayStack ensures its constant operation to maximize yield.
 
 #### autoBalance()
 
-Claims rewards, transfers fees to vault and stakes into trusted nodes
+Claims rewards, transfers fees to vault and stakes across trusted nodes
 
 ```solidity
 function autoBalance() returns (bool)

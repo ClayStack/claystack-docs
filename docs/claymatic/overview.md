@@ -22,7 +22,7 @@ ClayMatic interacts directly with Polygon's staking contracts, and not with any 
 To understand more about the contract inner workings, see [StakeManager.sol](https://github.com/maticnetwork/contracts/blob/main/contracts/staking/stakeManager/StakeManager.sol) and [ValidatorShare.sol](https://github.com/maticnetwork/contracts/blob/main/contracts/staking/validatorShare/ValidatorShare.sol).
 
 ### Ethereum
-See on [Etherscan](https://etherscan.io/address/0x91730940DCE63a7C0501cEDfc31D9C28bcF5F905).
+View on [Etherscan](https://etherscan.io/address/0x91730940DCE63a7C0501cEDfc31D9C28bcF5F905).
 ```
 0x91730940DCE63a7C0501cEDfc31D9C28bcF5F905
 ```

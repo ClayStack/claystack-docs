@@ -19,7 +19,7 @@ ClayStack is currently governed by the ClayStack Foundation. ClayStack is planni
 ### Operations TimeLock
 For all internal operations to ensure the on-going operation of the protocol, from fees setting to node delegation. The protocol enforces a TimeLock protocol where any change has to be proposed and approved before being executed.
 
-See on [Etherscan](https://etherscan.io/address/0x7a1104Feb0D460Aa437008e54D7D6Db0bA7e8876)
+View on [Etherscan](https://etherscan.io/address/0x7a1104Feb0D460Aa437008e54D7D6Db0bA7e8876)
 
 ```
 0x7a1104Feb0D460Aa437008e54D7D6Db0bA7e8876
@@ -28,7 +28,7 @@ See on [Etherscan](https://etherscan.io/address/0x7a1104Feb0D460Aa437008e54D7D6D
 ### Upgrades TimeLock
 For any contract upgrade, rhe protocol enforces a TimeLock protocol where any change has to be proposed and approved before being executed.
 
-See on [Etherscan](https://etherscan.io/address/0x376b467dFf007dD8d3f24404cAddff7F72257Fe4)
+View on [Etherscan](https://etherscan.io/address/0x376b467dFf007dD8d3f24404cAddff7F72257Fe4)
 
 ```
 0x376b467dFf007dD8d3f24404cAddff7F72257Fe4

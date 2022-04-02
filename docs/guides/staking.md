@@ -2,7 +2,7 @@
 
 ### How to Stake & Unstake
 
-To start your staking journey you can join the testnet at https://victoria.claystack.com or dive-in directly at https://app.claystack.com
+To start your staking journey, access the testnet at https://victoria.claystack.com or dive-in to the app directly at https://app.claystack.com.
 
 #### Connect Metamask
 <iframe width="560" height="315" src="https://www.youtube.com/embed/BewuvY0YuKo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -18,7 +18,7 @@ Users can opt to sell their csTokens instead of unstaking. As a result, they avo
 
 ### Staking
 
-The process of staking involves the transfer of the underlying tokens to ClayStack's smart contracts, which in turn mints csTokens at the current exchange rate and thereafter stakes the underlying tokens via trusted validators. Most protocols employ a delegate staking system, thus ensuring the safety of the funds for the users.
+The process of staking involves the transfer of the underlying token to ClayStack's smart contract, which in turn will mint csTokens at the current exchange rate and will thereafter stake the underlying tokens on trusted validators. The user's tokens are held securely at the chain's stake manager contract and at no point do the validators have accesses to such funds.
 
 ### Standard Unstaking
 

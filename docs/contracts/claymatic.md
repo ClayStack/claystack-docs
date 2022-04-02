@@ -228,3 +228,15 @@ function instantWithdraw(uint256 amountCs) returns (bool)
 #### Returns:
 
 Bool confirmation of transaction.
+
+### autoBalance()
+
+Claims rewards, transfers fees to vault and stakes into nodes
+
+```sol
+function autoBalance() returns (bool)
+```
+
+#### Returns:
+
+Bool confirmation of transaction.

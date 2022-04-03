@@ -1,5 +1,5 @@
 # Victoria Testnet
 
-ClayStack and the community thoroughly test new features and incorporate feedback through Victoria's testnet. It is the 3rd iteration of the testnet where users participate to get familiar with the protocol.
+ClayStack and the community thoroughly test new features and incorporate feedback through Victoria's testnet. This is the third iteration of the testnet where users participate to get familiar with the protocol.
 
-ClayStack Victoria is accessible at https://victoria.claystack.com.
+Access ClayStack Victoria at https://victoria.claystack.com.

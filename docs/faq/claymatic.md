@@ -7,7 +7,7 @@ Yes. Polygon's staking protocol is native to Ethereum.
 Yes. You can stake your MATIC both on Ethereum network and on Polygon mainnet network.
 
 ### What is the APR when I stake MATIC?
-For MATIC, the APR varies depending on the total staked MATIC vs the total supply and the number of checkpoints a validator validates. A user can expect an APY of 7-10% after all fees.
+For MATIC, the APR varies depending on the total staked MATIC vs the total supply and the number of checkpoints a validator validates. You can can expect an APY of 7-9% after all fees.
 
 ### What are the rewards of staking MATIC?
 Polygon has allocated 12% of its total supply of 10 billion tokens to fund the staking rewards. These rewards are to be distributed over 5 years across participating validating nodes and delegators.

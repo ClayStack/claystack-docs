@@ -114,7 +114,7 @@ function withdrawOrders(address, uint256) returns (WithdrawOrder)
 
 ### deposit()
 
-Sends base tokens to contract and mints csToken to `msg.sender`.
+Sends underlying tokens to contract and mints csToken to `msg.sender`.
 
 ```sol
 function deposit(uint256 amountToken) returns (bool)
@@ -126,9 +126,9 @@ function deposit(uint256 amountToken) returns (bool)
 
 #### Parameters:
 
-| Name         | Type      | Description                  |
-| ------------ | --------- | ---------------------------- |
-| `_amountToken` | `uint256` | Amount of base tokens sent from msg.sender to this contract  |
+| Name         | Type      | Description                                                       |
+| ------------ | --------- |-------------------------------------------------------------------|
+| `_amountToken` | `uint256` | Amount of underlying tokens sent from msg.sender to this contract |
 
 #### Returns:
 

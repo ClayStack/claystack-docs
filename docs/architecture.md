@@ -7,7 +7,7 @@ ClayMain upgradable contract (aka ClayMatic for MATIC or ClayGraph for GRT) is t
 On a regular basis an off-chain service calls the public method [**autobalance**](/contracts/claymatic#autobalance) triggering the staking of funds into the validating nodes. Any contract or user can call this method.
 
 #### Exchange Rate
-The exchange rate of the base token to csToken (e.g. MATIC to csMATIC) is calculated as the total amount of tokens (deposits + rewards) over the supply of csToken. The value of the csToken will increase over time with respect to the base token. 
+The exchange rate of the underlying token to csToken (e.g. MATIC to csMATIC) is calculated as the total amount of tokens (deposits + rewards) over the supply of csToken. The value of the csToken will increase over time with respect to the base token. 
 
 On some chains, where slashing is enabled, a particular validator may be penalized due to missing validation checkpoints or misbehaviour, and thus a portion of the staked funds on that given validator is slashed. This will in turn cause the exchange rate to decrease.
 

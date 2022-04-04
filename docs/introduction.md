@@ -12,7 +12,7 @@ Access ClayStack at https://app.claystack.com.
 
 ### csTokens
 
-csTokens are standard ERC20 tokens that represent the claim to both the underlying staked tokens and the staking rewards. csTokens continuously appreciate in value with respect to the base token, abstracting away the complexity of staking, claiming and re-staking.
+csTokens are standard ERC20 tokens that represent the claim to both the underlying staked tokens and the staking rewards. csTokens continuously appreciate in value with respect to the underlying token, abstracting away the complexity of staking, claiming and re-staking.
 
 Users can opt to sell their csTokens instead of unstaking. As a result, they avoid unstaking fees and the need to wait for the "unbonding" period before getting access to their tokens.
 

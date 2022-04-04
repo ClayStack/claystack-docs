@@ -2,17 +2,17 @@
 
 ### What is ClayStack?
 
-ClayStack is a decentralized liquid staking protocol that offers liquid-staked tokens for PoS chains. These are known as csTokens and can be used across the entire DeFi ecosystem.
+ClayStack is a decentralized liquid staking protocol that offers liquid-staked tokens (csTokens) for PoS chains. These can be used across the entire DeFi ecosystem.
 
 ### Who is behind ClayStack?
-ClayStack was founded by a team with extensive experience on staking, running validating infrastructure and developing smart contracts for the EVM. With this experience and a deep understanding of PoS Blockchains, ClayStack has received the backing from top crypto VC funds, including CoinFund and Parafi, to build the next-gen liquid staking.
+ClayStack was founded by a team with extensive experience in staking, running validating infrastructure and developing smart contracts for the EVM. With this experience and a deep understanding of PoS Blockchains, ClayStack has received backing from top crypto VC funds, including CoinFund and Parafi, to build the next-gen liquid staking protocol.
 
-### Is ClayStack a DAO? if not, will it eventually turn into a DAO?
-No. ClayStack is currently a foundation, yet as part of the plan ClayStack aims to become a DAO.
+### Is ClayStack a DAO? If not, will it eventually turn into a DAO?
+No. ClayStack is currently a foundation. And yes, ClayStack aims to transition into a DAO.
 
 ### What makes ClayStack unique?
-Staking is about the details. Up-time, decentralization, node reliability, smart contract security. ClayStack combines a seamless experience with deep staking expertise. With ClayStack all is abstracted away, in a secure and seamless manner. You can get access to the staking rewards without the hassle of the technicalities.
+ClayStack offers a seamless staking experience to its users by going over all the minute details such as up-time, decentralization, node reliability, smart contract security and more. With ClayStack, all the complexity of staking is abstracted away in a secure and effective manner. You can get access to the staking rewards without the hassle of the technicalities.
 
 ### How can I contribute to ClayStack?
 
-We have a vibrant and young community, come join us! Feel free to reach out to us at [Discord](https://discord.gg/bETPDZtr), [Twitter](https://twitter.com/claystack_hq) or [Telegram](https://t.me/claystack).
+We have a vibrant and young community and would love for you to be a part of it. Feel free to reach out on [Discord](https://discord.gg/aFm5DqVmre), [Twitter](https://twitter.com/claystack_hq) or [Telegram](https://t.me/claystack).

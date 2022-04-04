@@ -2,7 +2,7 @@
 
 ### What is ClayStack?
 
-ClayStack is a decentralized liquid staking protocol that offers liquid-staked tokens for PoS chains. These are known as csTokens and can be used across the entire DeFi ecosystem.
+ClayStack is a decentralized liquid staking protocol that offers liquid-staked tokens (csTokens) for PoS chains. These can be used across the entire DeFi ecosystem.
 
 ### Who is behind ClayStack?
 ClayStack was founded by a team with extensive experience in staking, running validating infrastructure and developing smart contracts for the EVM. With this experience and a deep understanding of PoS Blockchains, ClayStack has received backing from top crypto VC funds including CoinFund and Parafi, to build the next-gen liquid staking protocol.
@@ -15,4 +15,4 @@ ClayStack offers a seamless staking experience to its users by going over all th
 
 ### How can I contribute to ClayStack?
 
-We have a vibrant and young community and would love for you to be a part of it. Feel free to reach out to us at [Discord](https://discord.gg/aFm5DqVmre), [Twitter](https://twitter.com/claystack_hq) or [Telegram](https://t.me/claystack).
+We have a vibrant and young community and would love for you to be a part of it. Feel free to reach out on [Discord](https://discord.gg/aFm5DqVmre), [Twitter](https://twitter.com/claystack_hq) or [Telegram](https://t.me/claystack).

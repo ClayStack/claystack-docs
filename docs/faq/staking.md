@@ -10,7 +10,7 @@ Unstaking involves withdrawing tokens from a validator, and waiting for the unbo
 When you stake with ClayStack, you receive back [csTokens](#what-is-the-cstoken) in return. This csToken is fully liquid and gives you new possibilities while still enjoying rewards from staking.
 
 ### Who holds my assets?
-When you stake through ClayStack, the protocol will delegate the token in the chain's Stake Manager contract, where it will accrue rewards. The stake is spread across different validating nodes, but the validators have no access to the tokens. Those assets are protected by both the chain's Stake Manager contract and ClayStack's ClayMain contract.
+When you stake through ClayStack, the protocol will delegate the token in the chain's stake manager contract, where it will accrue rewards. The stake is spread across different validating nodes, but the validators have no access to the tokens. Those assets are protected by both the chain's stake manager contract and ClayStack's ClayMain contract.
 
 ### What is a csToken?
 
@@ -21,13 +21,13 @@ csTokens are standard ERC20 tokens that represent the claim to both the underlyi
 A csToken is worth more than the underlying tokens because its value includes all the accrued rewards overtime. Holding a csToken like csMATIC is like holding MATIC, but in addition it receives continuous staking rewards.
 
 ### How frequently will I get rewards?
-Unlike other protocols, rewards are constantly accrued. There is no need to claim rewards to re-stake them. ClayStack protocol does it by design. Your csToken increases in value passively.
+Rewards are constantly accrued. There is no need to claim rewards or to re-stake them. ClayStack protocol does it by default. Your csToken increases in value as you sleep.
 
 ### How often does the exchange rate change?
 You can expect price changes 1-3 times a day.
 
 ### How can I use my csTokens?
-Just owning csTokens is already giving you passive income from the staking rewards. You can always trade your csTokens. We will collaborate with other protocols to expand the use-cases for the csTokens, such as using them as deposits on lending protocols. 
+Just owning csTokens is already giving you passive income from the staking rewards. You can always trade your csTokens. We will collaborate with other protocols to expand the use-cases for the csTokens, such as using them as collateral on lending protocols. 
 
 ### What is Flash Exit?
 Flash Exit is one of ClayStack’s unique features that lets you instantly withdraw your staked tokens. With Flash Exit there are no unbonding periods.

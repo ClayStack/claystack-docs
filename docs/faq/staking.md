@@ -30,7 +30,7 @@ You can expect price changes 1-3 times a day.
 Just owning csTokens is already giving you passive income from the staking rewards. You can always trade your csTokens. We will collaborate with other protocols to expand the use-cases for the csTokens, such as using them as collateral on lending protocols. 
 
 ### What is Flash Exit?
-Flash Exit is one of ClayStack’s unique features that lets you instantly withdraw your staked tokens. With Flash Exit there are no unbonding periods.
+Flash Exit is one of ClayStack’s unique features that allows you to instantly withdraw your staked tokens. With Flash Exit there are no unbonding periods. What's best, fees from Flash Exit will increase the yield for the csToken holders!
 
 ### What is the difference between Flash Exit and Standard Unstaking?
 Flash Exit lets you instantly withdraw your tokens while in standard unstaking, you have to wait the "unbonding" period that can range from a few days to several months depending on the protocol. For Polygon's MATIC, the unbonding period ranges from 3-5 days.

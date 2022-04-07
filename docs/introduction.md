@@ -26,7 +26,7 @@ ClayStack's contract offers a direct unstaking mechanism, which leverages the Po
 
 ### Flash Exit
 
-ClayStack's contract offers a unique feature, Flash Exit which acts as a liquidity pool, where users can unstake and immediately receive the underlying tokens. The feature removes the need for any waiting period, with applicable fees and limits on the amounts.
+ClayStack's contract offers a unique feature, Flash Exit which acts as a liquidity pool, where users can unstake and immediately receive the underlying tokens. In addition to providing immediate liquidity, the collected fees are retained thus increasing the exchange rate and improving the yield. The feature removes the need for any waiting period, with applicable fees and limits on the amounts. 
 
 [//]: # (- [ClayStack LitePaper]&#40;#&#41;)
 

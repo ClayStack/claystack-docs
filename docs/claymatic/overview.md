@@ -4,6 +4,8 @@ ClayMatic is the staking protocol implementation for Polygon PoS. A user stakes 
 
 Polygon's staking protocol lives on Ethereum, where ClayMatic pools MATIC from deposits. The ERC20 token is then staked across trusted validator nodes, and ClayMatic  claims and re-stakes rewards on a regular basis.
 
+<img src={require('@site/static/ClayMatic.png').default} />
+
 ### Staking Rewards
 Polygon has allocated 12% of its total supply of 10 billion tokens to fund the staking rewards. These rewards are to be distributed over 5 years across participating validating nodes and delegators. Through ClayStack, the user delegates MATIC across several trusted validators.
 

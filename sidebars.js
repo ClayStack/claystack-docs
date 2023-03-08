@@ -1,13 +1,12 @@
 module.exports = {
   docs: [
     'introduction',
-    // 'claystack',
     {
       type: 'category',
-      label: 'Guides',
+      label: 'ClayStack Foundation',
       items: [
-        'guides/staking',
-        // 'guides/node-operators',
+        'claystack/introduction',
+        // 'claystack/tokenomics',
       ],
     },
       'architecture',
@@ -35,6 +34,14 @@ module.exports = {
     'security',
     'deployed-contracts',
     'victoria',
+    {
+      type: 'category',
+      label: 'Guides',
+      items: [
+        'guides/staking',
+        // 'guides/node-operators',
+      ],
+    },
     {
       type: 'category',
       label: 'FAQ',

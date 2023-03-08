@@ -7,7 +7,7 @@ Javascript functions to get logs for specified events e.g LogFulfill, LogWithdra
 const { providers, Contract } = require('ethers');
 
 // change this RPC according to the network needed
-const polygonRPC =  'https://matic-mainnet.chainstacklabs.com'
+const polygonRPC =  'https://matic-mainnet.chainstacklabs.com' 
 const providerPolygon = new providers.JsonRpcProvider(polygonRPC);
 
 // provider or signer can be used in contract instatiation depending on need

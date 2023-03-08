@@ -4,7 +4,7 @@ ClayExchange is a specialized decentralized exchange protocol that focuses on un
 
 ClayExchange allows users to get in or out of the Liquid Staked Derivatives(LSD) market quickly by providing discounts to users for fulfilling their trades early hence not having to wait the unbonding period. This also allows users to get into the LSD market for cheaper benefiting both liquidity suppliers and LSD holders
 
-To better understand ClayExchange, head to the ReadMe in our repo.(_insert link_)
+To better understand ClayExchange, head to the docs on ClayExchange.
 
 The aim of the hackathon is to  encourage developers to build solutions or tools to help elevate ClayExchange for its users.
 
@@ -65,8 +65,10 @@ Some potential solutions include but not limited to
 
 # Resources
 
-- ABIs for ClayExchange
+- ABIs for ClayExchange and logs emitted [here](docs/hackathon/functionAbis_logs.md)
+- Sample code on how users can get started on retrieving logs of orders and fulfillments [here](docs/hackathon/sample_getLogs.md)
+- Sample code on how users can interact with our contracts [here](docs/hackathon/sample_orders.md)
+- tesnet/alpha deployment addresses [here](docs/hackathon/deployments.json)
 - Any open sourced libraries - e.g EthersJs/Web3py
-- Sample code on how users can get started on retrieving logs of orders and fulfillments [here](docs/hackathon/sample_logs.md)
 - Workshops with our devs on ClayExchange, walkthrough on how the product works as well as what resources we are able to provide
 - QnAs answered through discord by our devs 

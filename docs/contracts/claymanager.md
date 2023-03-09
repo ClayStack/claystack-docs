@@ -63,8 +63,6 @@ function getUserOrders(address user, uint256 page) returns (WithdrawOrder)
 | `isClaimable` | `bool`    | If order can be claimed standard method.              |
 | `isEarlyClaimable` | `uint256` | If order can be claimed early before standard period. |
 
-## Methods
-
 ### deposit()
 
 Sends underlying tokens to contract and mints csToken to `msg.sender`.

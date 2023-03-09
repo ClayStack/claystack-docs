@@ -2,8 +2,6 @@
 
 Main csMATIC contract for Ethereum staking.
  
-### _Views_
-
 ### getExchangeRate()
 
 Returns the current exchange rate accounting for any slashing or donations and a boolean value indicating whether a slashing event has occurred (Note: Slashing is not currently enabled on Polygon).
@@ -110,9 +108,6 @@ function withdrawOrders(address, uint256) returns (WithdrawOrder)
 | `orderIds` | `uint256[]` | List of order ids from the validators |
 | `nodeIds` | `uint256[]` | List of corresponding nodeIds |
 
-
-
-### _Methods_
 
 ### deposit()
 

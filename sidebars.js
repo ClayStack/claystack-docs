@@ -16,6 +16,7 @@ module.exports = {
       items: [
           'claymatic/overview',
           'claymatic/csmatic',
+          'claymatic/polygon',
           'claymatic/autobalancer',
           'claymatic/fees',
           'claymatic/limits',
@@ -26,6 +27,7 @@ module.exports = {
       label: 'Contracts',
       items: [
         'contracts/claymatic',
+        'contracts/claymanager',
         'contracts/cstoken',
         'contracts/rolemanager',
         'contracts/timelock',

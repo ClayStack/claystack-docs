@@ -1,8 +1,6 @@
-# ClayMatic.sol
+# ClayManager.sol
 
-Main csMATIC contract for Ethereum staking.
- 
-### _Views_
+Main csMATIC contract for Polygon staking.
 
 ### getExchangeRate()
 
@@ -12,24 +10,6 @@ Returns the current exchange rate accounting for any slashing or donations and a
 function getExchangeRate() returns (uint256, bool)
 ```
 
-
-### getNodes()
-
-Returns Information regarding nodes that protocol supports and respective staked amount on each node.
-
-```sol
-function getNodes() returns (StakingNode[], uint256[])
-```
-#### StakingNode Structure:
-
-| Name         | Type      | Description                  |
-| ------------ | --------- | ---------------------------- |
-| `id` | `uint256` | Validator node Id  |
-| `validatorAddress` | `address` | Validator node address |
-| `points` | `uint256` | Points allocated to validator |
-| `staked` | `uint256` | Total amount of stake on validator |
-
-
 ### getLiquidityCsToken()
 
 Returns total liquidity of csToken available for Flash Exit without considering external pools.
@@ -37,41 +17,6 @@ Returns total liquidity of csToken available for Flash Exit without considering 
 ```sol
 function getLiquidityCsToken() returns (uint256)
 ```
-
-
-### getMaxWithdrawAmountCs()
-
-Returns maximum amount of csToken that can be withdrawn in a given transaction.
-
-```sol
-function getMaxWithdrawAmountCs() returns (uint256)
-```
-
-
-### getEpoch()
-
-Returns current epoch in Polygon's StakeManager contract & Withdrawal delay.
-
-```sol
-function getEpoch() returns (uint256, uint256)
-```
-
-
-### funds()
-
-Returns all protocol's funds.
-
-```sol
-function funds() returns (Funds)
-```
-#### Funds Structure:
-
-| Name         | Type      | Description                  |
-| ------------ | --------- | ---------------------------- |
-| `currentDeposit` | `uint256` | Total number of tokens deposited by users |
-| `stakedDeposit` | `uint256` | Total number of tokens currently staked on nodes |
-| `accruedFees` | `uint256` | Total fees accrued by protocol |
-
 
 ### fees()
 
@@ -81,38 +26,44 @@ Returns all types protocol's fees. Protocol uses 2 point decimal precision(i.e b
 function fees() returns (Fees)
 ```
 
-
 #### Fees Structure:
 
-| Name         | Type      | Description                  |
-| ------------ | --------- | ---------------------------- |
-| `depositFee` | `uint256` | Fee percent on deposit |
-| `withdrawFee` | `uint256` | Fee percent on withdraw |
+| Name         | Type      | Description                        |
+| ------------ | --------- |------------------------------------|
+| `depositFee` | `uint256` | Fee percent on deposit             |
+| `withdrawFee` | `uint256` | Fee percent on withdraw            |
+| `earlyClaimFee` | `uint256` | Fee percentage on early claims     |
 | `instantWithdrawFee` | `uint256` | Fee percentage on instant withdraw |
-| `rewardFee` | `uint256` | Fee percent on accrued rewards |
 
+### bridgeFee()
 
-### withdrawOrders()
-
-Returns information regarding withdraw order for given user address and oderId.
+Fee to manually trigger the bridge by user
 
 ```sol
-function withdrawOrders(address, uint256) returns (WithdrawOrder)
+function bridgeFee() returns (uint256)
 ```
 
+### getUserOrders()
 
-#### WithdrawOrder Structure:
+Returns paginated list of user's withdraw orders in descending order of creation.
 
-| Name         | Type      | Description                  |
-| ------------ | --------- | ---------------------------- |
-| `amount` | `uint256` | Total amount of tokens unstaked from validators by user |
-| `fee` | `uint256` | Fee percentage to be paid by the user |
-| `orderIds` | `uint256[]` | List of order ids from the validators |
-| `nodeIds` | `uint256[]` | List of corresponding nodeIds |
+```sol
+function getUserOrders(address user, uint256 page) returns (WithdrawOrder)
+```
 
+#### UserWithdrawOrder Structure:
 
+| Name      | Type      | Description                                           |
+|-----------|-----------|-------------------------------------------------------|
+| `orderId` | `uint256` | Unique order Id                                       |
+| `amount`  | `uint256` | Total amount unstaked from from ethereum.             |
+| `fee`     | `uint256` | Fee percentage to be paid by the user at claim time.  |
+| `batchId` | `uint256` | Id of the batch process to be sent to ethereum.       |
+| `claimableAt` | `uint256` | timestamp when batch claims can be processed.         |
+| `isClaimable` | `bool`    | If order can be claimed standard method.              |
+| `isEarlyClaimable` | `uint256` | If order can be claimed early before standard period. |
 
-### _Methods_
+## Methods
 
 ### deposit()
 
@@ -160,10 +111,17 @@ function deposit(uint256 amountToken, uint256 delegator) returns (bool)
 
 Bool confirmation of transaction.
 
+### depositETH()
+
+Sends native to chain tokens `msg.value` to contract and mints csToken to `msg.sender`.
+
+```sol
+function depositETH() returns (bool)
+```
 
 ### withdraw()
 
-Burns csToken from user, un-stake respective amounts of tokens from validator node(s) and creates a withdraw order.
+Burns csToken from user and creates a withdraw order.
 
 ```sol
 function withdraw(uint256 amountCs) returns (uint256)
@@ -186,7 +144,7 @@ Withdraw Order ID.
 
 ### claim()
 
-Checks the validity of given `orderIds`, claims tokens from the corresponding validators nodes and transfers the amount to user.
+Checks the validity of given `orderIds`, claims tokens and transfers the amount to user.
 
 ```sol
 function claim(uint256[] orderIds) returns (bool)
@@ -231,9 +189,31 @@ function instantWithdraw(uint256 amountCs) returns (bool)
 
 Bool confirmation of transaction.
 
+### earlyClaim()
+
+Checks the validity of given `orderId`, claims tokens and transfers the amount to user.
+
+```sol
+function earlyClaim(uint256 orderId) returns (bool)
+```
+
+> **Note:**
+> Requirements:
+> - Order must be early claimable eligible and no slashing occurred within batch.
+
+#### Parameters:
+
+| Name         | Type      | Description                  |
+| ------------ | --------- | ---------------------------- |
+| `orderIds` | `uint256[]` | Array of withdraw order ids issued at withdraw() |
+
+#### Returns:
+
+Bool confirmation of transaction.
+
 ### autoBalance()
 
-Claims rewards, transfers fees to vault and stakes into nodes
+Initiates transfer process to Ethereum while sends a message on expected tokens. A minimum amount or time is required for it to execute unless paid fee by the caller `msg.value` must exceed the bridge fee.
 
 ```sol
 function autoBalance() returns (bool)

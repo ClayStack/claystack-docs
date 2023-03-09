@@ -200,10 +200,13 @@ struct UserWithdrawOrderInfo {
     uint256 amountOriginal;
     uint256 amountValue;
     uint256 amountToFulfill;
+    uint256 discount;
+    uint256 splitFee;
     uint256 fee;
     uint256 deadline;
     uint256 startTime;
     uint256 createdAt;
+    uint256 exchangeRate;
     bool allowPartial;
     Status status;
     address owner;
@@ -218,6 +221,8 @@ struct UserWithdrawOrderInfo {
 | `amountOriginal` | Total amount from original order.                            |
 | `amountValue` | Amount in base tokens at valid exchange rate.                |
 | `amountToFulfill` | Total amount to be provided by order taker to fully fulfill. |
+| `discount` | Percentage discount offered by order owner.                  |
+| `splitFee` | Percentage of the discount towards order taker.              |
 | `fee` | Net offered discount to order taker.                         |
 | `deadline` | Seconds from execution the order is valid for fulfillment.   |
 | `startTime` | Timestamp when unbonding has started.                        |

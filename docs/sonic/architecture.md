@@ -1,8 +1,8 @@
 # Architecture
 
-### ClayExchange
+### Sonic
 
-This is the main entry point contract that coordinates the unstaking flow and allows other users to fulfil withdraw orders at a discount. In this contract the user starts an unstaking request by providing the parameters for the order to inform other users of their request to exit and the discount they are willing to give in order for their order to be fulfilled as soon as possible. These orders can then be viewed and fulfilled by other users who wish to buy the derivative tokens at the discount specified by the initial order's owner.
+This is the main entry point contract that coordinates the unstaking flow and allows other users to fulfill withdraw orders at a discount. In this contract the user starts an unstaking request by providing the parameters for the order to inform other users of their request to exit and the discount they are willing to give in order for their order to be fulfilled as soon as possible. These orders can then be viewed and fulfilled by other users who wish to buy the derivative tokens at the discount specified by the initial order's owner.
 
 ### Strategies
 

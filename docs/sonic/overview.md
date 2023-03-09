@@ -1,12 +1,12 @@
 # Overview
 
-ClayExchange is a specialized decentralized exchange protocol that focuses on unstaking liquid tokens, directly managing the unstaking/unbonding process interacting with the staking contracts and maximizes yield for liquidity providers while minimizing slippage and fees of liquid tokens holders.
+Sonic is a specialized decentralized exchange protocol that focuses on unstaking liquid tokens, directly managing the unstaking/unbonding process interacting with the staking contracts and maximizes yield for liquidity providers while minimizing slippage and fees of liquid tokens holders.
 
 It brings a two-sided market of people looking to stake that can receive better pricing (discounted liquid tokens) and people looking to unstake while minimizing time and fees.
 
 ### Supported Liquid Tokens
 
-Each liquid token has its own characteristics and rules, specially applicable in the unbonding process. ClayExchange implements a specialized protocol for each of the supported liquid tokens enabling direct interaction with the original staking contracts, therefore not relying on liquidity pools for the swapping of liquid tokens for base tokens, but instead directly interacting with the staking contracts. This yields in capital efficiency benefits as lower fees are incurred, and there is no slippage, particularly beneficial for transactions with large amounts or in volatile market conditions.
+Each liquid token has its own characteristics and rules, specially applicable in the unbonding process. Sonic implements a specialized protocol for each of the supported liquid tokens enabling direct interaction with the original staking contracts, therefore not relying on liquidity pools for the swapping of liquid tokens for base tokens, but instead directly interacting with the staking contracts. This yields in capital efficiency benefits as lower fees are incurred, and there is no slippage, particularly beneficial for transactions with large amounts or in volatile market conditions.
 
 #### csMATIC on Mumbai
 ```

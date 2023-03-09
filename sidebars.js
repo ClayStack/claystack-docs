@@ -24,11 +24,11 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'ClayExchange',
+      label: 'Sonic',
       items: [
-        'clayexchange/overview',
-        'clayexchange/architecture',
-        'clayexchange/fees',
+        'sonic/overview',
+        'sonic/architecture',
+        'sonic/fees',
       ],
     },
     {
@@ -37,7 +37,7 @@ module.exports = {
       items: [
         'contracts/claymatic',
         'contracts/claymanager',
-        'contracts/clayexchange',
+        'contracts/sonic',
         'contracts/cstoken',
         'contracts/rolemanager',
         'contracts/timelock',
@@ -58,7 +58,7 @@ module.exports = {
       type: 'category',
       label: 'Developers',
       items: [
-        'devs/clayexchange',
+        'devs/sonic',
       ],
     },
     {

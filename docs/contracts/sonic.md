@@ -1,4 +1,4 @@
-# ClayExchange.sol
+# Sonic.sol
 
 ### withdraw()
 

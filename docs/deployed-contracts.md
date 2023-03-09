@@ -8,9 +8,9 @@
 - csMATIC v2 (Polygon): [`0xFcBB00dF1d663eeE58123946A30AB2138bF9eb2A`](https://polygonscan.com/token/0xFcBB00dF1d663eeE58123946A30AB2138bF9eb2A)
 - csMATIC v1 (Polygon): [`0x7ed6390f38d554B8518eF30B925b46972E768AF8`](https://polygonscan.com/token/0x7ed6390f38d554B8518eF30B925b46972E768AF8)
 
-#### ClayExchange Testnet
+#### Sonic Testnet
 
-- ClayExchange (Mumbai): [`0x9B8aad2746e94b66f18CF68b4b0E9EA19b9C86eF`](https://mumbai.polygonscan.com/address/0x9B8aad2746e94b66f18CF68b4b0E9EA19b9C86eF)
+- Sonic (Mumbai): [`0x9B8aad2746e94b66f18CF68b4b0E9EA19b9C86eF`](https://mumbai.polygonscan.com/address/0x9B8aad2746e94b66f18CF68b4b0E9EA19b9C86eF)
 
 #### Governance
 

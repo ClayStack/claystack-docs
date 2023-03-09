@@ -66,6 +66,7 @@ Some potential solutions include but not limited to
 # Resources
 
 - ABIs for ClayExchange and logs emitted [here](docs/hackathon/functionAbis_logs.md)
+- Docs on public/external functions in ClayExchange [here](docs/clayExchange.md)
 - Sample code on how users can get started on retrieving logs of orders and fulfillments [here](docs/hackathon/sample_getLogs.md)
 - Sample code on how users can interact with our contracts [here](docs/hackathon/sample_orders.md)
 - tesnet/alpha deployment addresses [here](docs/hackathon/deployments.json)

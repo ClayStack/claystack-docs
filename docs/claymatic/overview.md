@@ -9,14 +9,14 @@ Polygon's staking protocol lives on Ethereum, where ClayMatic pools MATIC from d
 ### Staking Rewards
 Polygon has allocated 12% of its total supply of 10 billion tokens to fund the staking rewards. These rewards are to be distributed over 5 years across participating validating nodes and delegators. Through ClayStack, the user delegates MATIC across several trusted validators.
 
-Rewards APY can range depending on the percentage of MATIC staked across the network. Try the [Reward Calculator](https://wallet.polygon.technology/staking/rewards-calculator/).
+Rewards APY can range depending on the percentage of MATIC staked across the network.
 
 To know more, read [Staking on Polygon PoS](https://polygon.technology/staking/).
 
 ### Unstaking Conditions
 ClayStack Standard Unstake feature will use Polygon's checkpoint system to unstake, which currently requires the user to wait for a period of 80 checkpoints before the locked MATIC can be released. Currently this translates to a period of 3-5 days.
 
-To track Polygon's checkpoints, [see here](https://wallet.polygon.technology/staking/).
+To track Polygon's checkpoints, [see here](https://staking.polygon.technology/).
 
 ### Polygon's Staking Contracts
 ClayMatic interacts directly with Polygon's staking contracts, and not with any validating node. This delegated staking structure ensures maximum safety for the users as staked funds are protected by Polygon's contracts and are at no point in custody of the validating node.

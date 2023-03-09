@@ -58,8 +58,7 @@ module.exports = {
       type: 'category',
       label: 'Developers',
       items: [
-        'guides/staking',
-        // 'guides/node-operators',
+        'devs/clayexchange',
       ],
     },
     {

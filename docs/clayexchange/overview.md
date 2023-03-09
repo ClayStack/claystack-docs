@@ -8,6 +8,10 @@ It brings a two-sided market of people looking to stake that can receive better 
 
 Each liquid token has its own characteristics and rules, specially applicable in the unbonding process. ClayExchange implements a specialized protocol for each of the supported liquid tokens enabling direct interaction with the original staking contracts, therefore not relying on liquidity pools for the swapping of liquid tokens for base tokens, but instead directly interacting with the staking contracts. This yields in capital efficiency benefits as lower fees are incurred, and there is no slippage, particularly beneficial for transactions with large amounts or in volatile market conditions.
 
+#### csMATIC on Mumbai
+```
+0x2eD77c504bF34D1d38fd9556D3982dF604f9c3f7
+```
 ### Staking Flow
 
 For each supported liquid token the user is able to either directly stake their base token and receive the liquid token, or the user is able (automatically) to fulfill a market order to buy the liquid token at a discount.

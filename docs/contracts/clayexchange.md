@@ -34,8 +34,8 @@ function withdraw(
 #### LogWithdraw
 ```sol
 event LogWithdraw(
-    address user,
-    address token,
+    address indexed user,
+    address indexed token,
     uint256 orderId,
     uint256 amount,
     uint256 fee,
@@ -130,6 +130,8 @@ event LogClaim(address user, uint256 orderId, uint256 amount, uint256 amountBase
 
 Fulfills order by providing base token and sends amount to order owner. If amount is partial and the order started unstaking, user will receive a new order for the corresponding claim. This order can in effect be offered again in the market at a discount.
 
+Fulfill as a payable function allows for two modalities, either sending the fulfillable amount as native token (e.g. ETH) or pre-approving the wrapped amount of the base token (e.g. WETH). When sending the native token, the amount sent must be at least the amount to be fulfilled of liquid token. To simplify the calculation see orderAmounts().
+
 ```sol
 function fulfill(
     uint256 _orderId,
@@ -160,6 +162,25 @@ event LogFulfill(
     uint256 amountBase
 );
 ```
+
+### orderAmounts()
+
+Calculates the amount to fulfill order including treasury fee. To fulfill an order, the order taker must paid the amount to owner (already includes the discount) and the treasury fee.
+
+- Total amount at current exchange rate (accounts for slashing)
+- Amount to be paid to order owner
+- Amount to be paid to DAO
+
+```sol
+function orderAmounts(uint256 _orderId, uint256 _amount) public view returns (uint256, uint256, uint256)
+```
+
+#### Parameters:
+
+| Name     | Description                        |
+| -------- |------------------------------------|
+| `_orderId` | Order Id of order to be updated.   |
+| `_amount` | Liquid tokens to be fulfilled.     |
 
 ### getOrder()
 
@@ -221,6 +242,14 @@ function getUserOrders(
     address _user,
     uint256 _page
 ) view returns (UserWithdrawOrderInfo[], uint256, uint256)
+```
+
+### orderNonce()
+
+Linear incremental order nonce. Increases by one after each withdraw request.
+
+```sol
+function orderNonce() view returns (uint256)
 ```
 
 ### getExchangeRate()

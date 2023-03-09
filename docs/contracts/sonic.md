@@ -21,7 +21,7 @@ function withdraw(
 | --------- | ---------------------------- |
 | `_token` | Liquid token to be withdrawn. |
 | `_amount` | Amount of liquid token to be withdrawn. |
-| `_fee` | Percentage fee to be paid for early claim. |
+| `_fee` | Percentage fee to be paid by owner as discount. |
 | `_deadline` | Seconds from execution the order is valid for fulfillment. |
 | `_allowPartial` | Whether order allows partial fulfillment. |
 | `_startUnstaking` | Whether to start unstaking tokens. |
@@ -65,7 +65,7 @@ function updateWithdrawOrder(
 | Name      | Description                  |
 | --------- | ---------------------------- |
 | `_orderId` | Order Id of order to be updated. |
-| `_fee` | Percentage fee to be paid for early claim. |
+| `_fee` | Percentage fee to be paid by owner as discount. |
 | `_deadline` | Seconds from execution the order is valid for fulfillment. |
 | `_allowPartial` | Whether order allows partial fulfillment. |
 | `_startUnstaking` | Whether to start unstaking tokens. |

@@ -45,15 +45,6 @@ module.exports = {
     },
     'security',
     'deployed-contracts',
-    'victoria',
-    {
-      type: 'category',
-      label: 'Guides',
-      items: [
-        'guides/staking',
-        // 'guides/node-operators',
-      ],
-    },
     {
       type: 'category',
       label: 'FAQ',
@@ -63,5 +54,22 @@ module.exports = {
         'faq/claystack',
       ],
     },
+    {
+      type: 'category',
+      label: 'Developers',
+      items: [
+        'guides/staking',
+        // 'guides/node-operators',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Guides',
+      items: [
+        'guides/staking',
+        // 'guides/node-operators',
+      ],
+    },
+    'victoria',
   ],
 }

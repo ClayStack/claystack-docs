@@ -14,7 +14,7 @@ ClayStack's ClayMatic protocol has been audited by ChainSecurity, deemed one of 
 
 ClayStack's csMATIC for Polygon has been audited by Quantstamp, deemed one of the top firms in the industry. Quantstamp's audit finds _NO_ medium, high, nor critical vulnerabilities which attests to ClayStack's commitment to security.
 
-[Audit Report](https://certificate.quantstamp.com/full/cs-matic-liquid-staking-on-polygon-clay-stack)
+[Audit Report](https://certificate.quantstamp.com/full/cs-matic-liquid-staking-on-polygon-clay-stack.pdf)
 
 ### Operations TimeLock
 For all internal operations to ensure the on-going operation of the protocol, from fees setting to node delegation. The protocol enforces a TimeLock protocol where any change has to be proposed and approved before being executed. Current proposers and executors are members of the ClayStack Foundation.

@@ -1,43 +1,46 @@
 # FAQs
 
-## 1. Why csETH?
-csETH offers a compelling solution for Ethereum holders looking to maximize the benefits of staking. Here's why you should consider csETH:
+### What is csETH?
+csETH is a Liquid Staking Derivative token that is designed to enhance the security, scalability, and inclusivity of the Ethereum network. It uses innovative technologies to encourage participation in the staking and validation processes.
 
-Enhanced Inclusivity: csETH accommodates stakers and delegators of all experience levels, providing user-friendly pathways for participation. Whether you're new to staking or an experienced participant, csETH empowers you to engage with the platform and start earning rewards.
+### Why was csETH created?
+csETH was created to democratize access to staking on the Ethereum network. It lowers the bond requirements for validators, promotes decentralization, and uses a performance-based protocol to determine the bond requirements.
 
-Competitive Fee Structures: Claystack sets new standards for protocol fees, including reward fees, withdrawal fees, and IW (Instant Withdrawal) fees. By minimizing fees, csETH ensures that participants retain a larger share of their rewards, optimizing the value and efficiency of their staked assets.
+### How is csETH unique?
+csETH stands out through its use of Decentralized Validation Technology (DVT) and a Validator Funding Provider (VFP) protocol. These technologies enable it to provide a scalable, noncustodial, and highly decentralized protocol that encourages broad participation.
 
-Supporting Decentralization: Claystack is committed to fostering a more decentralized Ethereum network. By reducing entry barriers and encouraging wider participation, csETH contributes to a distributed landscape where diverse stakeholders actively contribute to network security.
+### How does csETH support decentralization?
+csETH is committed to fostering a more decentralized Ethereum network. By reducing entry barriers and encouraging wider participation, csETH contributes to a distributed landscape where diverse stakeholders actively contribute to network security.
 
-## 2. What is the 1ETH Bond?
-The 1ETH bond refers to the initial bond amount required for participants to join csETH as validators or delegators. By bonding 1ETH, users demonstrate their commitment and provide collateral to support the security and integrity of the network. This bond amount acts as a guarantee against malicious behavior and encourages participants to act in the best interests of the network.
+### How decentralized is csETH?
+csETH is designed with a strong focus on decentralization. By actively promoting the involvement of a diverse range of validators and delegators, csETH aims to create a more distributed and resilient network. Its inclusive approach and efforts to reduce barriers to entry encourage wider participation and help to distribute stake concentration, contributing to a more decentralized Ethereum ecosystem.
 
-## 3. How Decentralized is csETH?
-csETH is designed with a strong focus on decentralization. Claystack actively promotes the involvement of a diverse range of validators and delegators, aiming to create a more distributed and resilient network. Through its inclusive approach and efforts to reduce barriers to entry, csETH encourages wider participation and helps to distribute stake concentration, contributing to a more decentralized Ethereum ecosystem.
+### What are the advantages of csETH?
+csETH offers many advantages including lower bond requirements for validators, increased yields for stakers and validators, a performance-based protocol, and a highly decentralized and inclusive staking process.
 
-## 4. How to be a Solo Staker Node?
-Running a solo staker node on csETH allows you to independently validate transactions and contribute to the Ethereum network's security. To run a solo staker node:
+### What is the Validator Funding Provider (VFP) protocol?
+The VFP protocol allows individuals, known as Validator Fund Providers, to contribute ETH to a high-risk pool that is used to fulfill the validator bond requirement. This enables more individuals to become validators and contribute to the decentralization of the Ethereum network.
 
-Register for the Claystack solo node operator program via xyz.com.
-Pay the initial bond amount of 8 ETH to participate as a solo node operator.
-Wait for the delegator pool to accumulate ample liquidity.
-Once the delegator pool has sufficient liquidity, you can start running your solo staker node and earn rewards for your contribution to the network's security.
-Running a solo staker node requires technical expertise and a robust infrastructure setup. It's important to ensure you meet the necessary hardware and software requirements and follow Claystack's guidelines and best practices for running a reliable and secure solo staker node.
+### What is the role of the Layer 2 Node Operator Management (L2NOM) protocol?
+L2NOM is a protocol that allows node operators to manage and interact with csETH on Layer 2 chains. It enables operators to claim rewards, submit proposals for node allocations, monitor their nodes, and maintain their performance reputation in a gas-efficient manner.
 
-## How csETH provides better yields?
-Claystack is deeply committed to delivering higher yields to participants within the csETH ecosystem. Their approach centers around prioritizing liquidity and flexibility, actively managing liquidity pools, and optimizing the deployment of assets. By exploring innovative liquidity solutions, fostering partnerships, and leveraging market dynamics, Claystack creates a vibrant and rewarding environment for csETH stakeholders, significantly enhancing their earning potential. Their dedication to research and development ensures they remain at the forefront of industry advancements, enabling them to implement cutting-edge technologies, techniques, and algorithms. This continuous pursuit of innovation empowers Claystack to optimize yield generation and provide participants with maximized rewards for their contributions. With a strong focus on liquidity, flexibility, innovation, and research, Claystack strives to offer superior yields compared to traditional investment options within the csETH ecosystem. Furthermore, Claystack has plans to forge partnerships with several other protocols to further maximize yields in the future.
+### How does csETH implement MEV extraction?
+csETH validators utilize MEV extraction tools like MEV-Boost to maximize yields. These tools allow validators to manage transaction order within their blocks, leading to additional profits.
 
+### What is Flash Exit in csETH?
+Flash Exit is a feature that provides instant liquidity to csETH holders. It allows holders to withdraw their funds without waiting for the unbonding period or avoiding slashing risks, in exchange for a fee.
 
-## Who are VFPs ?
-VFP stands for Validator Fund Providers in Claystack. These are individuals who actively seek higher risks and rewards compared to traditional delegators. VFPs play a crucial role in the csETH ecosystem by contributing their ETH to a separate pool specifically designed for Validator Fund Providers.
+### What kind of governance model does csETH have?
+csETH operates as a decentralized autonomous organization (DAO), empowering token holders to actively influence the platform's growth and evolution. This ensures the continued cultivation of a truly participatory and democratic ecosystem within csETH.
 
-As VFPs provide liquidity to this high-risk pool, they receive VEF (Validator Equity Fund) shares. These shares entitle them to a portion of the direct rewards generated by validators. This unique arrangement allows VFPs to earn higher rewards compared to traditional delegators, reflecting the increased risk they undertake.
+### How does csETH promote inclusivity?
+csETH is designed to accommodate stakers and delegators of all experience levels. Its user-friendly pathways allow anyone, whether new to staking or an experienced participant, to engage with the platform and start earning rewards.
 
-Being a Validator Fund Provider offers individuals the opportunity to actively participate in the staking ecosystem, contribute to network security, and potentially earn greater rewards. It aligns with Claystack's goal of promoting inclusivity and wider participation in the validation process, while providing incentives for those seeking higher-risk opportunities.
+### What kind of fee structures does csETH offer?
+csETH offers competitive fee structures, including reward fees, withdrawal fees, and Instant Withdrawal (IW) fees. By minimizing fees, csETH ensures that participants retain a larger share of their rewards, optimizing the value and efficiency of their staked assets.
 
+### How csETH provides better yields?
+csETH delivers better yields through active network management, MEV extraction, Flash Exit fees, and reduced insurance costs with VFP. Maximizing staked amounts, capitalizing on transaction order management, providing instant liquidity, and optimizing yields through lower insurance costs and bond requirements.
 
-
-
-[//]: # (TODO)
-[//]: # (Add more FAQs)
-
+###What is the risk associated with staking in csETH?
+Staking in csETH involves certain risks, such as the possibility of slashing penalties for validators who fail to meet the required performance standards. However, csETH employs various mechanisms to mitigate these risks, including insurance through the Validator Funding Provider (VFP) protocol and rigorous security measures.

@@ -1,3 +1,7 @@
-litepaper link
+# csETH Litepaper
+The csETH Litepaper provides an in-depth overview of csETH, the premier platform for staking and delegation of Ethereum (ETH) on Claystack. This document outlines the core features, functionalities, and benefits of csETH, empowering users to actively participate in and shape the future of staking while contributing to a stronger and more decentralized Ethereum network.
 
-https://www.notion.so/claystack/csETH-35222c80fffc4e12afcacb67245cc7ef
+To access the full csETH Litepaper, please visit the following link: 
+
+[//]: # (TODO)
+[//]: # (Update litepaper link)

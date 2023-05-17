@@ -8,6 +8,8 @@
 - clayMain
 - NodeManager
 - SSV-Node-Registry
+- RoleManager
+- Timelock
 
 ### Mainnet+beacon+polygon mainnet
 
@@ -15,3 +17,5 @@
 - clayMain
 - NodeManager
 - SSV-Node-Registry
+- RoleManager
+- Timelock

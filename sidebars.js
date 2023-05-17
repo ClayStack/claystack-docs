@@ -18,6 +18,7 @@ module.exports = {
             'cseth/operators/ssv',
             'cseth/operators/obol',
           ],
+          collapsed: false
         },
         'cseth/faq',
       ],
@@ -46,8 +47,7 @@ module.exports = {
           ],
         },
           'csmatic/deployed-contracts',
-          'csmatic/faq-staking',
-          'csmatic/faq-claymatic',
+          'csmatic/faq',
       ],
       collapsed: true
     },

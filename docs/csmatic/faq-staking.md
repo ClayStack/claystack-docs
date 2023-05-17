@@ -1,4 +1,4 @@
-# Staking FAQ
+# FAQ Staking
 [//]: #ENDTITLE
 ### How does staking work?
 Staking allows the user to delegate their tokens towards validating Proof-of-Stake transactions while earning staking rewards. Unlike traditional staking, ClayStack abstracts the process allowing you to stake without having to run validating nodes or without the need for staking expertise. Through a staking smart contract, you are able to stake your tokens and receive back liquid tokens that increase in value based on the staking rewards.

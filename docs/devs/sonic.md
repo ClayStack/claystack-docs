@@ -4,8 +4,8 @@ This is a starter guide for Sonic. It will help you understand the basic concept
 
 Few things you may need along the way:
 
-- [Sonic ABI](../contracts/sonic)
-- [Deployed Contracts](../deployed-contracts)
+- [Sonic ABI](../sonic/sonic.md)
+- [Deployed Contracts](../csmatic/deployed-contracts.md)
 
 For this guide we will use csMATIC on Mumbai Testnet. You can get csMATIC from the [ClayStack Victoria](https://victoria.claystack.com/).
 

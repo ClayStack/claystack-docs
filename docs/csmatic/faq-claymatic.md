@@ -1,4 +1,4 @@
-# ClayMatic FAQ
+# FAQ csMATIC
 [//]: #ENDTITLE
 ### Can I stake my MATIC on Ethereum?
 Yes. Polygon's staking protocol is native to Ethereum.

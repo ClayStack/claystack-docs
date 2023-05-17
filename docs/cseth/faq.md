@@ -1,4 +1,4 @@
-# Frequently Asked Questions (FAQs)
+# FAQs
 
 ## 1. Why csETH?
 csETH offers a compelling solution for Ethereum holders looking to maximize the benefits of staking. Here's why you should consider csETH:

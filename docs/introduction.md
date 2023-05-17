@@ -4,37 +4,14 @@ slug: /
 
 # Introduction
 
-ClayStack is a decentralized liquid staking protocol that unlocks the liquidity of staked assets in Proof-of-Stake (PoS) networks. Users can deposit tokens in ClayStack’s smart contracts, which issues csTokens that are fully backed and fully fungible. These tokens increase in value as they receive staking rewards from the network.
+ClayStack is a pioneering staking platform designed for the Ethereum ecosystem. Our mission is to lead a new era in the global staking industry, with the aim of bringing staking into the mainstream. Our unique approach, anchored in our commitment to decentralization, security, scalability, and inclusivity, sets us apart. [csETH](/cseth/overview), a key part of our platform, enhances the security of Ethereum and DeFi by fostering active participation and promoting scalable, robust staking.
 
-Users can also utilize these tokens to participate in other DeFi protocols. The combined yield from staking rewards and participating in DeFi compounds over time, increasing yields for the user.
+Leveraging cutting-edge technologies such as [DVT](/cseth/dvt) (Decentralized Validation Technology) - which promotes decentralized decision-making - and hybrid architectures that balance the benefits of different systems, ClayStack ensures an efficient and secure staking process. This encourages widespread participation and paves the way for a platform that's scalable, non-custodial, and highly decentralized.
 
-Access ClayStack at https://app.claystack.com.
+ClayStack is designed to be inclusive, inviting both individual home stakers and institutions to participate in the validation process. Our approach, coupled with enhanced reliability and lower bond requirements, democratizes access to staking. We employ algorithmic network balancing through [VFP](/cseth/vfp) to create a decentralized, censorship-resistant, and fault-tolerant network. This means our staking process dynamically balances the roles of professional, non-professional, and top-performing validators, ensuring a robust and resilient network.
 
-### csTokens
+We're committed to playing a pivotal role in Ethereum's evolution, enhancing the ecosystem's security, facilitating wider participation, and providing scalable, attractive yields. Our focus on decentralization, inclusivity, and community governance puts us at the cutting edge of the staking industry, contributing to the broader success of the Ethereum ecosystem.
 
-csTokens are standard ERC20 tokens that represent the claim to both the underlying staked tokens and the staking rewards. csTokens continuously appreciate in value with respect to the underlying token, abstracting away the complexity of staking, claiming and re-staking.
+Start your staking journey with ClayStack today and discover the benefits of our innovative platform. 
 
-Users can opt to trade their csTokens instead of unstaking. As a result, they avoid unstaking fees and the need to wait for the "unbonding" period before getting access to their tokens.
-
-### Staking
-
-The process of staking involves the transfer of the underlying token to ClayStack's smart contract, which in turn will mint csTokens at the current exchange rate and will stake the underlying tokens on trusted validators. The user's tokens are held securely at the chain's stake manager contract and at no point do the validators have accesses to such funds.
-
-### Unstaking
-
-ClayStack's contract offers a direct unstaking mechanism, which leverages the PoS chain's unstaking system. In most cases, users will need to wait for a period of time before their tokens are made available. Depending on the protocol, this "unbonding" period can range from a few days to several months.
-
-### Flash Exit
-
-ClayStack's contract offers a unique feature, Flash Exit which acts as a liquidity pool, where users can unstake and immediately receive the underlying tokens. In addition to providing immediate liquidity, the collected fees are retained thus increasing the exchange rate and improving the yield. The feature removes the need for any waiting period, with applicable fees and limits on the amounts. 
-
-[//]: # (- [ClayStack LitePaper]&#40;#&#41;)
-
-[//]: # ()
-[//]: # (```)
-
-[//]: # (TODO)
-
-[//]: # (Add Link to LitePaper)
-
-[//]: # (```)
+To learn more about csETH, please read our [Litepaper](/cseth/litepaper) or go directly to the app here https://app.claystack.com.

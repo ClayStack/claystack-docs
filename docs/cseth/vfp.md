@@ -1,4 +1,4 @@
-# 1 ETH Bond Strategy
+# Validator Funding Provider (VFP)
 
 csETH is dedicated to achieving complete decentralization within the Ethereum network by eliminating the high bond entry barrier for running a validator. This objective is realized through a gradual monitoring process that assesses the performance and rewards of each registered Claystack node. To ensure transparency and immutability, all relevant information is stored on-chain using Layer 2 solutions. Leveraging an innovative algorithm, Claystack calculates the bond amount required for each validator based on their historical performance.
 

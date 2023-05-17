@@ -4,7 +4,7 @@
 
 ClayMain upgradable contract (aka ClayMatic for MATIC or ClayGraph for GRT) is the core contract that acts as a liquid staking pool aggregator. It is responsible for token deposits, minting and burning liquid staking tokens (csTokens), staking/unstaking funds to the validating nodes and applying fees.
 
-On a regular basis an off-chain service calls the public method [**autobalance**](/contracts/claymatic#autobalance) triggering the staking of funds into the validating nodes. Any contract or user can call this method.
+On a regular basis an off-chain service calls the public method [**autobalance**](./contracts/claymatic#autobalance) triggering the staking of funds into the validating nodes. Any contract or user can call this method.
 
 #### Exchange Rate
 The exchange rate of the underlying token to csToken (e.g. MATIC to csMATIC) is calculated as the total amount of tokens (deposits + rewards) divided by the supply of csTokens. The value of the csToken will increase over time with respect to the base token. 

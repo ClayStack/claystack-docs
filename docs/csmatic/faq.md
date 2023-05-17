@@ -64,8 +64,8 @@ Flash Exit is a new feature we wanted to test in a low-gas environment. It will 
 By design and to increase security, unstaking is done directly from the Polygon's stake manager contract on Ethereum. Enabling this feature in Polygon would require a transaction on Ethereum which would be very expensive in terms of gas.
 [//]: #END
 ### What are the fees associated with ClayMatic?
-[See fees](/claymatic/fees) for ClayMatic.
+[See fees](/csmatic/fees) for ClayMatic.
 [//]: #END
 ### Are there any limits on ClayMatic?
-[See limits](/claymatic/limits) for ClayMatic.
+[See limits](/csmatic/limits) for ClayMatic.
 [//]: #END

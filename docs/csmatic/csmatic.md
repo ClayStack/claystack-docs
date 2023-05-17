@@ -1,6 +1,6 @@
 # csMATIC
 
-csMATIC is currently available on Ethereum and Polygon. Its price is determined by the sum of MATIC deposits and rewards and the exchange rate can be verified through the [ClayMatic](/claymatic/overview) contract.
+csMATIC is currently available on Ethereum and Polygon. Its price is determined by the sum of MATIC deposits and rewards and the exchange rate can be verified through the [ClayMatic](/csmatic/overview) contract.
 
 [Audit Report](https://chainsecurity.com/security-audit/claystack-matic/)
 

@@ -1,7 +1,7 @@
 # SSV Integration with Claystack
-Claystack has integrated with the Secure Secret Validator (SSV) network to enhance the security and decentralization of its platform. SSV is a network that provides enhanced security for Proof-of-Stake (PoS) blockchains by introducing an additional layer of validation through secret sharing.
+Claystack has integrated with the Secret Shared Validator (SSV) network to enhance the security and decentralization of its platform. SSV is a network that provides enhanced security for Proof-of-Stake (PoS) blockchains by introducing an additional layer of validation through secret sharing.
 
-To learn more about the SSV network and its functionalities, please visit their official website: SSV Network
+To learn more about the SSV network and its functionalities, please visit their official website: https://ssv.network/
 
 The integration of SSV with Claystack brings several advantages and benefits to the platform and its users:
 

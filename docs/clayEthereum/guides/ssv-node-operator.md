@@ -13,10 +13,6 @@ As part of the registration process, you will be required to pay an initial bond
 After successfully registering and paying the bond amount, you will have the opportunity to run the testnet with Claystack. This step allows you to familiarize yourself with the platform's SSV functionalities, gain hands-on experience, and demonstrate your technical competence as an SSV operator. Follow the provided guidelines and instructions to set up and run the testnet environment on the Polygon chain.
 
 ## Important Notes:
-a. Availability of Whitelist Slots: Please note that there is a limited number of slots available for SSV operators on Claystack. The exact number of available slots may vary, so it is important to stay updated on the platform's announcements and updates regarding the whitelist status for SSV operators.
-
-b. Thorough Application Scrutiny: The Claystack internal team will carefully review each application received during the registration period. They will assess the viability and potential of each SSV operator application, considering factors such as technical proficiency and commitment to the network. While the team aims to include as many qualified operators as possible, the selection process ensures the integrity and efficiency of the SSV validation process.
-
-c. Registry Start Date: The official start date for the SSV operator whitelist registry is set for 1st August 2023. Ensure that you submit your application within the specified timeframe to be considered for inclusion in the Claystack SSV operator list.
+Availability of Whitelist Slots: Please note that there is a limited number of slots available for SSV operators on Claystack. The exact number of available slots may vary, so it is important to stay updated on the platform's announcements and updates regarding the whitelist status for SSV operators.
 
 By following these steps and meeting the application requirements, you can increase your chances of being whitelisted as an SSV operator on the Claystack platform. Take advantage of this opportunity to contribute to the security and scalability of the Ethereum network while enjoying the benefits of participating in the Claystack SSV operator community on the Polygon chain.

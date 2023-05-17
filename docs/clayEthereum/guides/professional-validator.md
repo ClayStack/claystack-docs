@@ -13,10 +13,6 @@ As part of the registration process, you will be required to complete a KYC (Kno
 After successfully completing the registration and KYC process, you will have the opportunity to run the testnet with Claystack. This step allows you to familiarize yourself with the platform's functionalities, gain hands-on experience, and demonstrate your technical competence as a validator node operator. Follow the provided guidelines and instructions to set up and run the testnet environment.
 
 ## Important Notes:
-a. Availability of Whitelist Slots: Please note that there are a limited number of slots available on the Claystack validator whitelist. The exact number of available slots may vary, so it is important to keep an eye on the platform's announcements and updates regarding the whitelist status.
-
-b. Thorough Application Scrutiny: The Claystack internal team will meticulously review each application received during the registration period. They will assess the viability and potential of each validator node operator application. While they strive to include as many qualified operators as possible, the selection process aims to ensure the integrity and reliability of the network.
-
-c. Registry Start Date: The official start date for the validator whitelist registry is set for 1st August 2023. Make sure to submit your application within the designated timeframe to be considered for inclusion in the Claystack validator list.
+Availability of Whitelist Slots: Please note that there are a limited number of slots available on the Claystack validator whitelist. The exact number of available slots may vary, so it is important to keep an eye on the platform's announcements and updates regarding the whitelist status.
 
 By following these steps and complying with the application requirements, you can increase your chances of being whitelisted as a validator on the Claystack platform. Take advantage of this opportunity to contribute to the Ethereum network's security and decentralization while enjoying the benefits of participating in the Claystack validator community.

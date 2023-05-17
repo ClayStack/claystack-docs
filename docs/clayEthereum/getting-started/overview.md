@@ -5,7 +5,9 @@ Welcome to the Claystack documentation for ClayETH (csEth)! Claystack is a pione
 csEth, the premier platform for staking and delegation of ETH, stands out for its inclusive approach, accommodating stakers and delegators of all types and levels of expertise. Whether you are new to staking or an experienced participant, Claystack offers a range of pathways tailored to your interests and preferences. The user-friendly interface and comprehensive support provided by Claystack ensure that users can engage with the platform confidently, regardless of their experience level.
 
 ## Higher Yields
-Claystack is committed to providing higher yields for participants in the csEth ecosystem. By actively seeking farming benefits and leveraging the power of Clay (the platform's native token), Claystack ensures that your staked assets yield optimal returns, amplifying the potential rewards of your participation.
+Claystack is committed to providing higher yields for participants in the csEth ecosystem. Claystack's approach emphasizes the importance of liquidity and flexibility. By actively managing liquidity pools and optimizing the deployment of assets, Claystack aims to provide participants with enhanced earning potential. This includes exploring innovative liquidity solutions, fostering partnerships, and leveraging market dynamics to ensure a vibrant and rewarding ecosystem for csETH stakeholders.
+
+In addition to these strategies, Claystack's commitment to research and development ensures that the platform stays at the forefront of industry advancements. This dedication enables Claystack to implement cutting-edge technologies, techniques, and algorithms to enhance yield generation and optimize the rewards participants receive for their contribution.
 
 ## Robust Security
 At Claystack, security is of paramount importance. The smart contracts underlying csEth undergo rigorous testing and auditing processes, guaranteeing the integrity and reliability of the platform's infrastructure. With robust security measures and protocols in place, Claystack ensures that users' assets are well-protected, offering peace of mind throughout their staking journey.

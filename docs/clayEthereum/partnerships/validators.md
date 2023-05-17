@@ -1,5 +1,6 @@
 # List of professional validators onboarded
 
-1. stake fish 
+1. XYZ 
 
-// update list
+[//]: # (TODO)
+[//]: # (Add list of validators on-boarded)

@@ -7,8 +7,8 @@ To begin the process, you need to register for the Claystack solo node operator 
 ## Step 2: Pay the Initial Bond Amount
 As part of the registration process, you will be required to pay an initial bond amount. For solo node operators, the bond amount is set at 8 ETH. This bond serves as a commitment to your role and responsibilities as a solo node operator on Claystack. By paying the bond, you contribute to the security and integrity of the network.
 
-## Step 3: Wait for Ample Liquidity in the Delegator Pool
-After paying the bond amount, you will need to wait for the delegator pool to have ample liquidity. The delegator pool consists of ETH contributed by delegators who wish to participate in the staking process without taking on the responsibilities of running a solo node. Ample liquidity in the delegator pool ensures that there are enough staked funds available to be delegated to solo node operators.
+## Step 3: Get delegation from Delegator Pool
+After paying the bond amount, if currently there is no liquidity then you will need to wait for the delegator pool to have ample liquidity. The delegator pool consists of ETH contributed by delegators who wish to participate in the staking process without taking on the responsibilities of running a solo node. Ample liquidity in the delegator pool ensures that there are enough staked funds available to be delegated to solo node operators.
 
 It is important to note that the waiting period is necessary to ensure a balanced distribution of funds and maximize the participation of both solo node operators and delegators. The timing of when ample liquidity is reached may vary depending on the network's dynamics and the overall demand from delegators.
 

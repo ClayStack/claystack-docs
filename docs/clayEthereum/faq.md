@@ -29,10 +29,3 @@ Running a solo staker node requires technical expertise and a robust infrastruct
 [//]: # (TODO)
 [//]: # (Add more FAQs)
 
-
-[//]: # (QUestions)
-// Do we need to add info about 
-1. CLAY
-2. Farming
-3. Governance 
-

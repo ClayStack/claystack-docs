@@ -40,7 +40,3 @@ csETH incorporates L2s, enabling node operators to effortlessly manage nodes, re
 ### Insurance or Slashing Protection
 
 csETH offers robust slashing protection to ensure the safety of our validators' stakes. Our advanced protection mechanisms minimize the risk of losses due to validation errors, providing peace of mind for our stakers.
-
-### Community Governance
-
-csETH operates as a decentralized autonomous organization (DAO), empowering token holders to actively influence the platform's growth and evolution. Through their participation, they play a crucial role in determining the conditions for network expansion and balancing. By adhering to our core values of decentralization, inclusivity, censorship resistance, and reliability, our governance structure ensures the continued cultivation of a truly participatory and democratic ecosystem within csETH.

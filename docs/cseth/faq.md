@@ -30,9 +30,6 @@ csETH validators utilize MEV relayers like MEV-Boost to maximize yields. These t
 ### What is Flash Exit in csETH?
 Flash Exit is a feature that provides instant liquidity to csETH holders. It allows holders to withdraw their funds without waiting for the unbonding period or avoiding slashing risks, in exchange for a fee.
 
-### What kind of governance model does csETH have?
-csETH operates as a decentralized autonomous organization (DAO), empowering token holders to actively influence the platform's growth and evolution. This ensures the continued cultivation of a truly participatory and democratic ecosystem within csETH.
-
 ### How does csETH promote inclusivity?
 csETH is designed to accommodate stakers and delegators of all experience levels. Its user-friendly pathways allow anyone, whether new to staking or an experienced participant, to engage with the platform and start earning rewards.
 

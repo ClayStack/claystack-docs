@@ -31,7 +31,7 @@ csETH's minimal bond requirements for participation in the validation process al
 
 ### An Efficient Liquid Staking Tokens Market
 
-From its inception, csETH is integrated and supported in Sonic. Sonic, a liquid staking engine, is designed to combat stake centralization, streamline the user experience, and assist users in efficiently entering and exiting Liquid Staking Derivative (LSD) positions. Alongside other ETH liquid tokens, Sonic provides the necessary tools for LST to trade efficiently, thus advancing the entire ETH staking ecosystem and facilitating the onboarding of the next billion users to Ethereum.
+From its inception, csETH is integrated and supported in Sonic. Sonic, a liquid staking engine, is designed to combat stake centralization, streamline the user experience, and assist users in efficiently entering and exiting Liquid Staking Derivative (LSD) positions. Alongside other ETH liquid staking tokens, Sonic provides the necessary tools for LST to trade efficiently, thus advancing the entire ETH staking ecosystem and facilitating the onboarding of the next billion users to Ethereum.
 
 ### Modularity & Ease of Access
 

@@ -10,7 +10,7 @@ Moreover, the integration of multiple DVTs fosters a more diverse and inclusive 
 
 ### SSV Integration
 
-The integration of Secret Shared Validators (SSV) into csETH's suite of Distributed Validator Technologies (DVT) marks a significant advancement for the platform, setting it apart from other liquid staking derivatives. SSV technology facilitates the division of a validator's key into multiple parts, each under the management of a different entity. This unique approach to key management not only enhances the security of the network but also substantially improves its decentralization and fault tolerance.
+The integration of Secret Shared Validators (SSV) into csETH's suite of Distributed Validator Technologies (DVT) marks a significant advancement for the platform, setting it apart from other liquid staking derivatives. SSV technology facilitates the division of a validator's key into multiple parts, each under the management of a different entity. This unique approach to key management not only enhances the security of the network but also substantially improves its decentralization and censorship resistance.
 
 - Increased Security: By splitting the validator's key among multiple entities, the risk of a single point of failure is drastically reduced. Even if one entity is compromised, the others remain secure, ensuring the continued functioning and integrity of the validator.
 
@@ -23,7 +23,7 @@ The integration of Secret Shared Validators (SSV) into csETH's suite of Distribu
 
 ### Obol Integration
 
-The integration of Obol into csETH's Distributed Validator Technologies (DVT) offers an extra layer of decentralization and security, complementing the strengths of Secret Shared Validators (SSV). Obol is a technology that empowers a network of operators to host and maintain decentralized infrastructure in a truly distributed fashion.
+The integration of Obol into csETH's Distributed Validator Technologies (DVT) offers an extra layer of decentralization and security. Obol is a technology that empowers a network of operators to host and maintain decentralized infrastructure in a truly distributed fashion.
 
 - Distributed Infrastructure Management: Obol enables a network of operators to collaboratively host and maintain the infrastructure required for running csETH's decentralized protocol. This approach to infrastructure management enhances the resilience and fault tolerance of the system, reducing dependencies on single points of failure.
 

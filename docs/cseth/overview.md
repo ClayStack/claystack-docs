@@ -31,7 +31,7 @@ csETH's minimal bond requirements for participation in the validation process al
 
 ### An Efficient Liquid Staking Tokens Market
 
-From its inception, csETH is integrated and supported in Sonic. Sonic, a liquid staking engine, is designed to combat stake centralization, streamline the user experience, and assist users in efficiently entering and exiting Liquid Staking Derivative (LSD) positions. Alongside other ETH liquid tokens, Sonic provides the necessary tools for LST to trade efficiently, thus advancing the entire ETH staking ecosystem and facilitating the onboarding of the next billion users to Ethereum.
+From its inception, csETH is integrated and supported in Sonic. Sonic, a liquid staking engine, is designed to combat stake centralization, streamline the user experience, and assist users in efficiently entering and exiting Liquid Staking Derivative (LSD) positions. Alongside other ETH liquid staking tokens, Sonic provides the necessary tools for LST to trade efficiently, thus advancing the entire ETH staking ecosystem and facilitating the onboarding of the next billion users to Ethereum.
 
 ### Modularity & Ease of Access
 
@@ -40,7 +40,3 @@ csETH incorporates L2s, enabling node operators to effortlessly manage nodes, re
 ### Insurance or Slashing Protection
 
 csETH offers robust slashing protection to ensure the safety of our validators' stakes. Our advanced protection mechanisms minimize the risk of losses due to validation errors, providing peace of mind for our stakers.
-
-### Community Governance
-
-csETH operates as a decentralized autonomous organization (DAO), empowering token holders to actively influence the platform's growth and evolution. Through their participation, they play a crucial role in determining the conditions for network expansion and balancing. By adhering to our core values of decentralization, inclusivity, censorship resistance, and reliability, our governance structure ensures the continued cultivation of a truly participatory and democratic ecosystem within csETH.

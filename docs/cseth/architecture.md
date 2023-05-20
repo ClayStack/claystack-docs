@@ -1,6 +1,6 @@
 # Architecture
 
-csETH is a modular and composable design that combines a hybrid architecture whereby the liquid tokens is supported by a network of validating node leveraging various technologies. A modular DVT technology allows csETH to combine SSV, Obol, KYC-ring-fenced and public pools of nodes. At the same name within the types of nodes, the operators are combined from professional node operators to small operators. The diversity provided a layer of redundancy and censorship resistance, while at the same time allows for full scalability and decentralization.
+csETH is a modular and composable design that combines a hybrid architecture whereby the liquid tokens are supported by a network of validating node leveraging various technologies. A modular DVT technology allows csETH to combine SSV, Obol, KYC-ring-fenced and public pools of nodes. At the same time, the operators are combined from professional node operators to small operators. The diversity provided a layer of redundancy and censorship resistance, while at the same time allows for full scalability and decentralization.
 
 ![cseth](../images/cseth.png)
 

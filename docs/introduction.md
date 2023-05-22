@@ -4,7 +4,7 @@ slug: /
 
 # Introduction
 
-ClayStack is a pioneering staking platform designed for the Ethereum ecosystem. Our mission is to lead a new era in the global staking industry, with the aim of bringing staking into the mainstream. Our unique approach, anchored in our commitment to decentralization, security, scalability, and inclusivity, sets us apart. [csETH](/cseth/overview), a key part of our platform, enhances the security of Ethereum and DeFi by fostering active participation and promoting scalable, robust staking.
+ClayStack is a pioneering liquid staking protocol designed for the Ethereum ecosystem. Our mission is to lead a new era in the global staking industry, with the aim of bringing staking into the mainstream. Our unique approach, anchored in our commitment to decentralization, security, scalability, and inclusivity, sets us apart. [csETH](/cseth/overview), a key part of our platform, enhances the security of Ethereum and DeFi by fostering active participation and promoting scalable, robust staking.
 
 Leveraging cutting-edge technologies such as [DVT](/cseth/dvt) (Decentralized Validation Technology) - which promotes decentralized decision-making - and hybrid architectures that balance the benefits of different systems, ClayStack ensures an efficient and secure staking process. This encourages widespread participation and paves the way for a platform that's scalable, non-custodial, and highly decentralized.
 

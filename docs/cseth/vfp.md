@@ -1,6 +1,6 @@
 # Validator Funding Provider (VFP)
 
-csETH is committed to achieving complete decentralization within the Ethereum network by eliminating the high bond entry barrier for running a validator. This objective is made possible through a decentralized performance protocol that evaluates performance, underwrites risk, and allows anyone to provide ETH liquidity to validators to meet the bond requirement as well as insurance for csETH holders.
+ClayStack is committed to achieving complete decentralization within the Ethereum network by eliminating the high bond entry barrier for running a validator. This objective is made possible through a decentralized protocol that evaluates performance, underwrites risk, and allows anyone to provide ETH liquidity to validators to meet the bond requirement as well as insurance for csETH holders.
 
 This automated approach, combined with an algorithmic method for validator slot selection, helps maintain a balanced network across DVT modules and validator types, providing capital efficiency for node operators, stakers, and liquidity providers.
 

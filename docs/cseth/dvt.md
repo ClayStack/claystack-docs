@@ -12,7 +12,7 @@ Moreover, the integration of multiple DVTs fosters a more diverse and inclusive 
 
 ### SSV Integration
 
-The integration of Secret Shared Validators (SSV) into csETH's suite of Distributed Validator Technologies (DVT) marks a significant advancement for the platform, setting it apart from other liquid staking derivatives. SSV technology facilitates the division of a validator's key into multiple parts, each under the management of a different entity. This unique approach to key management not only enhances the security of the network but also substantially improves its decentralization and censorship resistance.
+The integration of Secret Shared Validators (SSV) into csETH's suite of Distributed Validator Technologies (DVT) marks a significant advancement for the platform, setting it apart from other liquid staking derivatives. SSV technology facilitates the division of a validator's key into multiple parts, each under the management of different entities. This unique approach to key management not only enhances the security of the network but also substantially improves its decentralization and censorship resistance.
 
 - Increased Security: By splitting the validator's key among multiple entities, the risk of a single point of failure is drastically reduced. Even if one entity is compromised, the others remain secure, ensuring the continued functioning and integrity of the validator.
 
@@ -25,9 +25,9 @@ The integration of Secret Shared Validators (SSV) into csETH's suite of Distribu
 
 ### Obol Integration
 
-The integration of Obol into csETH's Distributed Validator Technologies (DVT) offers an extra layer of decentralization and security. Obol is a technology that empowers a network of operators to host and maintain decentralized infrastructure in a truly distributed fashion.
+The integration with Obol offers an extra layer of decentralization and security. Obol is a technology that empowers a network of operators to host and maintain decentralized infrastructure in a truly distributed fashion.
 
-- Distributed Infrastructure Management: Obol enables a network of operators to collaboratively host and maintain the infrastructure required for running csETH's decentralized protocol. This approach to infrastructure management enhances the resilience and fault tolerance of the system, reducing dependencies on single points of failure.
+- Distributed Infrastructure Management: Obol enables a network of operators to collaboratively host and maintain the infrastructure required for running ClayStack's decentralized Ethereum protocol. This approach to infrastructure management enhances the resilience and fault tolerance of the system, reducing dependencies on single points of failure.
 
 - Decentralization at Scale: Obol's technology facilitates large-scale decentralization. It allows for a massive number of operators to participate in the system, significantly increasing the robustness and diversity of the network.
 
@@ -37,14 +37,14 @@ The integration of Obol into csETH's Distributed Validator Technologies (DVT) of
 
 The integration of both private and public professional pools of nodes for validation within csETH is a groundbreaking development in the realm of liquid staking derivatives. Operators are able to provide ETH for staking while simultaneously taking advantage of the benefits of a liquid staking derivative. This integration introduces a novel layer of versatility and scalability to Ethereum staking.
 
-- Scalability: With the integration of professional node pools, csETH can handle a higher volume of transactions and network interactions, allowing for enhanced growth and scalability. This is especially beneficial for large institutions that operate at a high scale and require a system capable of managing heavy workloads.
+- Scalability: With the integration of professional node pools, ClayStack can handle a higher volume of transactions and network interactions, allowing for enhanced growth and scalability. This is especially beneficial for large institutions that operate at a high scale and require a system capable of managing heavy workloads.
 
 - Fungibility: csETH tokens maintain the same value regardless of the specific node pool they are staked in. This allows for seamless trading and swapping of csETH tokens, enhancing liquidity and providing greater flexibility for token holders.
 
-- Compounding: csETH supports compound interest, enabling validators to automatically reinvest their rewards for exponential growth. This is particularly appealing to institutional investors, as it maximizes their return on investment.
+- Compounding: ClayStack supports compound interest, enabling validators to automatically reinvest their rewards for exponential growth. This is particularly appealing to institutional investors, as it maximizes their return on investment.
 
 - DeFi Integration: csETH tokens can be readily integrated into various DeFi protocols, allowing validators to participate in yield farming, lending, and other DeFi activities. This gives them the potential to earn additional yield on their staked ETH.
 
-- Institutional-Grade Security: csETH adheres to strict institutional requirements to ensure the highest level of security. It implements rigorous protocols to protect against risks such as double signing and slashing penalties.
+- Institutional-Grade Security: ClayStack adheres to strict institutional requirements to ensure the highest level of security. It implements rigorous protocols to protect against risks such as double signing and slashing penalties.
 
-- Decentralization: Despite the professional nature of these node pools, csETH's commitment to decentralization remains. This ensures a broad and diverse network of validators, strengthening the overall security and resilience of the system.
+- Decentralization: Despite the professional nature of these node pools, ClayStack's commitment to decentralization remains. This ensures a broad and diverse network of validators, strengthening the overall security and resilience of the system.

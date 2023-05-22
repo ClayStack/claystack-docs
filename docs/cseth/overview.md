@@ -1,6 +1,6 @@
 # Overview
 
-ClayStack's csETH is a Liquid Staking Derivative token that embodies the principles of decentralization, resistance to censorship, scalability, and inclusivity. Building upon robust technologies such as DVT and a hybrid architecture, csETH fosters a scalable, noncustodial, and thoroughly decentralized protocol, bolstering the security of the Ethereum ecosystem and the DeFi space. It encourages broad participation by rewarding active involvement from top node validators to non-professional validators, and facilitates the participation of major institutions and individual home stakers in staking and validation processes.
+ClayStack's Ethereum liquid staking protocol embodies the principles of decentralization, resistance to censorship, scalability, and inclusivity. Building upon robust technologies such as DVT and a hybrid architecture, ClayStack fosters a scalable, noncustodial, and thoroughly decentralized liquid staking solution. This helps bolster the security of the Ethereum ecosystem and the whole of DeFi. It encourages broad participation by rewarding active involvement from top node validators to non-professional validators, and facilitates the participation of major institutions and individual home stakers in staking and validation processes.
 
 ### Decentralization & Resistance to Censorship
 

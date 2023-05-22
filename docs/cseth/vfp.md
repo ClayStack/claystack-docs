@@ -4,6 +4,8 @@ csETH is committed to achieving complete decentralization within the Ethereum ne
 
 This automated approach, combined with an algorithmic method for validator slot selection, helps maintain a balanced network across DVT modules and validator types, providing capital efficiency for node operators, stakers, and liquidity providers.
 
+![cseth](../images/vfp.png)
+
 ### How it works
 ClayStack's innovative approach helps reduce the bond requirement for validators. When a validator consistently shows excellent performance, the algorithm acknowledges their proficiency and accordingly reduces the bond requirement. This adjustment encourages broader participation in the validation process, enabling more individuals to become validators and contribute to the decentralized nature of the Ethereum network.
 

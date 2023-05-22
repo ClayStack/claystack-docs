@@ -8,6 +8,8 @@ Combining several DVTs provides a layer of redundancy and further decentralizati
 
 Moreover, the integration of multiple DVTs fosters a more diverse and inclusive validator ecosystem. It allows for greater participation from different types of validators, ranging from individual home stakers to major institutions. This inclusivity strengthens the decentralization of the network, as it prevents any single group or entity from dominating the validation process. By combining several DVTs, we can create a more robust, resilient, and democratic network.
 
+![cseth](../images/dvt.png)
+
 ### SSV Integration
 
 The integration of Secret Shared Validators (SSV) into csETH's suite of Distributed Validator Technologies (DVT) marks a significant advancement for the platform, setting it apart from other liquid staking derivatives. SSV technology facilitates the division of a validator's key into multiple parts, each under the management of a different entity. This unique approach to key management not only enhances the security of the network but also substantially improves its decentralization and censorship resistance.

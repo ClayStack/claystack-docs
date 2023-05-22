@@ -78,13 +78,13 @@ module.exports = {
     //   ],
     // },
     'testnet',
-    {
-      type: 'category',
-      label: 'ClayStack DAO',
-      items: [
-        'claystack/introduction',
-        // 'claystack/tokenomics',
-      ],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'ClayStack DAO',
+    //   items: [
+    //     'claystack/introduction',
+    //     // 'claystack/tokenomics',
+    //   ],
+    // },
   ],
 }

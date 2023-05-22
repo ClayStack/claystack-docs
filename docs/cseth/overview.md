@@ -35,7 +35,7 @@ From its inception, csETH is integrated and supported in Sonic. Sonic, a liquid 
 
 ### Modularity & Ease of Access
 
-csETH incorporates L2s, enabling node operators to effortlessly manage nodes, receive rewards, and enter and exit directly on L2s, all without bearing excessive gas fees.
+csETH incorporates L2s, enabling node operators to effortlessly manage nodes, receive rewards, and enter and exit directly on L2s, all without bearing excessive gas fees. The modularity of csETH ensures that users can stake ETH, unstake it, and mint csETH - all on L2, thereby saving on transaction costs. 
 
 ### Insurance or Slashing Protection
 

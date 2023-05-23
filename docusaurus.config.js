@@ -11,6 +11,7 @@ module.exports = {
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
     image: 'images/share.jpg',
+    metadata: [{ 'twitter:image': 'images/share.jpg' }],
     prism: {
       additionalLanguages: ['solidity'],
     },

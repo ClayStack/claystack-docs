@@ -10,6 +10,7 @@ module.exports = {
   organizationName: 'ClayStack', // Usually your GitHub org/user name.
   projectName: 'docs', // Usually your repo name.
   themeConfig: {
+    image: 'images/share.jpg',
     prism: {
       additionalLanguages: ['solidity'],
     },

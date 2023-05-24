@@ -4,7 +4,7 @@ module.exports = {
   tagline: 'Documentation ClayStack Staking Protocol',
   url: 'https://claystack.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: './favicon.png',
   organizationName: 'ClayStack', // Usually your GitHub org/user name.

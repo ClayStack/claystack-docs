@@ -40,6 +40,10 @@ module.exports = {
           // Please change this to your repo.
           // editUrl: 'https://github.com//docs/blob/main/',
         },
+        gtag: {
+          trackingID: 'G-C478BLWCWD',
+          anonymizeIP: false,
+        },
       },
     ],
   ],

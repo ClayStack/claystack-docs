@@ -36,3 +36,7 @@ ClayStack validators utilize MEV extraction tools like MEV-Boost to maximize yie
 ClayStack's Flash Exit feature provides instant liquidity to token holders, eliminating the need to wait through the usual unbonding period or the risk of slashing until the claim is ready. It allows csETH holders to instantly exit their position in exchange for a fee, which is then distributed among the remaining csETH holders, thereby increasing the value of their holdings.
 
 Flash Exit is made possible by reserving a portion of staked funds within the contract to act as a liquidity pool. In a Flash Exit transaction, no unstaking from the validating nodes occurs. Instead, the withdrawn funds are directly sourced from the contract's token balance. This feature is beneficial in scenarios where immediate liquidity is required, thus adding another layer of flexibility for csETH token holders.
+
+#### Permissioned Pools 
+
+ClayStack will have separate permissioned pools to ensure maximal KYC/AML compliance. This is done to ensure maximum compliance for institutional participants. The node operators that will serve institutional participants are also whitelisted and will be checked against several security and decentralization standards. The ringfencing of the whitelist will be maintained by a Board of whitelisted institutional members, of which the ClayStack protocol will also be a constituent. 

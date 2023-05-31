@@ -4,6 +4,8 @@ ClayStack offers a modular and composable design that combines a hybrid architec
 
 ![cseth](../images/cseth.png)
 
+ClayStack mints two liquid staking tokens, csETH and IcsETH, which represent LSDs of standard and KYC'd pools. Read more about it [here](./csEthAndIcsETH)
+
 #### [DVT Modular Implementation](./dvt)
 
 A modular DVT system is a novel approach to network security and decentralization, enabling distributed validation among multiple participants. ClayStack integrates SSV and Obol, enhancing security, fault tolerance, and large-scale decentralization. It also introduces private and public professional node pools, supporting scalability, fungibility, and DeFi integration while adhering to stringent institutional requirements.

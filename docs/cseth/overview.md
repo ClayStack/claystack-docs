@@ -1,6 +1,6 @@
 # Overview
 
-ClayStack's Ethereum liquid staking protocol embodies the principles of decentralization, resistance to censorship, scalability, and inclusivity. Building upon robust technologies such as DVT and a hybrid architecture, ClayStack fosters a scalable, noncustodial, and thoroughly decentralized liquid staking solution. This helps bolster the security of the Ethereum ecosystem and the whole of DeFi. It encourages broad participation by rewarding active involvement from top node validators to non-professional validators, and facilitates the participation of major institutions and individual home stakers in staking and validation processes.
+ClayStack's Ethereum liquid staking protocol embodies the principles of decentralization, resistance to censorship, scalability, and inclusivity. Building upon robust technologies such as DVT and a hybrid architecture, ClayStack fosters a scalable, noncustodial, and thoroughly decentralized liquid staking solution. The protocol aims to target both retail and institutional stakers and node operators to help bolster the security of the Ethereum network. As such, the protocol incorporates several foundational architectural adjustments to ensure that everyone from compliance-seeking institutions to home-run node operators can partake in the benefits that the ClayStack protocol offers. By rewarding active involvement from top node validators to non-professional validators, and facilitates the participation of major institutions and individual home stakers in staking and validation processes.
 
 ### Decentralization & Resistance to Censorship
 
@@ -44,17 +44,19 @@ ClayStack offers robust slashing protection to ensure the safety of our validato
 
 ### Security & Transparency 
 
-ClayStack's csETH liquid staking solution has been subjected to comprehensive audits conducted by renowned security experts, solidifying its position as a trusted platform for staking your assets. Experience the benefits of complete transparency by effortlessly tracking your rewards and gaining valuable insights into the performance of Node Operators. With on-chain transparency, you can stay informed and make informed decisions, ensuring a secure and rewarding csETH liquid staking experience with ClayStack.
+ClayStack's liquid staking solution will be subjected to comprehensive audits conducted by renowned security experts, solidifying its position as a trusted platform for staking your assets. Experience the benefits of complete transparency by effortlessly tracking your rewards and gaining valuable insights into the performance of Node Operators. With on-chain transparency, you can stay informed and make informed decisions, ensuring a secure and rewarding Ethereum liquid staking experience with ClayStack.
 
 ### Diversified Node operator/validator set 
 
- csETH is thoughtfully designed to cater to a wide range of validators and node operators, including diverse options such as home-run, professional, solo, and KYC pool, among others. This inclusive approach ensures that csETH opens up opportunities for stakers and delegators of all sizes, from small delegators to institutional-level investors. Whether you are an individual looking to start your staking journey or an organization seeking to maximize your staking potential, csETH provides a seamless onboarding experience, allowing you to participate in liquid staking and earn rewards effortlessly. With csETH, ClayStack empowers participants of all types to contribute to the growth and success of the ecosystem while reaping the benefits of their staked assets.
+ClayStack Ethereum liquid staking is thoughtfully designed to cater to a wide range of validators and node operators, including diverse options such as home-run, professional, solo, and KYC pools, among others. This inclusive approach ensures that ClayStack opens up opportunities for stakers and delegators of all sizes, from small delegators to institutional-level investors. Whether you are an individual looking to start your staking journey or an organization seeking to maximize your staking potential, ClayStack provides a seamless onboarding experience, allowing you to participate in liquid staking and earn rewards effortlessly. 
 
 ### Counter Party Risk & Compliance Mitigation
 
- csETH is committed to overcoming regulatory challenges, facilitating responsible development, and driving wider adoption. With a strong focus on compliance, the csETH protocol actively engages in industry initiatives, advocates for regulatory clarity, and implements self-regulatory measures to ensure user safety and promote the secure growth of liquid staking. Institutions leveraging csETH benefit from robust risk management practices, encompassing thorough due diligence checks and effective fraud prevention. Moreover, csETH strictly adheres to KYC/KYB/AML regulations, safeguarding against financial crimes and upholding compliance standards. ClayStack's csETH empowers institutions to confidently participate in liquid staking, fostering responsible expansion within the industry.
+ClayStack is committed to overcoming regulatory challenges, facilitating responsible development, and driving wider adoption. With a strong focus on compliance, the Ethereum liquid staking protocol actively engages in industry initiatives, advocates for regulatory clarity, and implements self-regulatory measures to ensure user safety and promote the secure growth of liquid staking. Institutions leveraging ClayStack's Ethereum liquid staking benefit from robust risk management practices, encompassing thorough due diligence checks and effective fraud prevention. Moreover, ClayStack strictly adheres to KYC/KYB/AML regulations, safeguarding against financial crimes and upholding compliance standards. 
 
+### Permissioned KYC/AML Pools 
 
+The ClayStack Ethereum liquid staking protocol ringfences users by a whitelist. To gain access to ClayStack's liquid staking services, they are required to undergo transparent KYC and AML checks. These checks are applicable to both stakers and node operators. 
 
 
 

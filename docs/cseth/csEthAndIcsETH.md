@@ -3,18 +3,17 @@ ETH in the Claystack ecosystem comes in two forms, csETH (Claystack Ether), and 
 
 &nbsp;
 ## csETH
-csETH is standard ERC20 tokens that represent the claim to both the underlying token and the staking rewards for deposit in standard delegator pool. 
-FOr minting csETH there is no minimum limit of amount of ETH deposited and it can be minted by any user, it can be as low as 0.001 ETH. 
-csETH value appreatiates with time as it accure rewards from delegation to validator nodes.
-There is no need to restake the rewards csETH as it get automatically restaked thus increasing the amounts eligible for staking rewards.
-Users can always trade your csETH. We will collaborate with other protocols to expand the use-cases for the csTokens, such as using them as collateral on lending protocols.
+csETH is a standard ERC20 token that represents the claim to both the underlying token and the staking rewards for deposits in the Standard Delegator pool. Users can mint csETH by depositing any amount of ETH to the protocol and can be minted by any user (for as low as 0.001 ETH). csETH value appreatiates with time as it accure rewards from delegation to validator nodes.
+By simply holding csETH, users keep accruing staking rewards in their wallet without needing to re-stake and/or re-delegate to the protocol. 
+
+The csETH tokens are fully composable and tradable across the wider DeFi ecosystem. ClayStack aims to integrate with other protocols to expand the use-cases for the csTokens, such as using them as collateral on lending protocols.
 
 &nbsp;
 ## IcsETH
-IcsETH is also standard ERC20 token thatt represent the claim to both the underlying token and the staking rewards for deposit in KYCed pools.
-FOr minting IcsETH there will be minimum amount that needs to be deposited at once and also it will be used by whote listed users only
-In order to qualify for whitelist claystack will define standard procedure to get onboarded. Step will include KYC/AML check , etc
-IcsETH will greatly emphasize on regulatory compliance & sanction checks.
-Same as csETH there is no need to restake ........
-csETH will have more weightage in Slashing protection pools . it will also adhere super securities aspects like custodian etc
-If user wants to convert csETH than they need to either KYC or they can use csETH as asset for over collaterized loan.
+IcsETH is also a standard ERC20 token that represents the claim to both the underlying token and the staking rewards for deposits in KYC'd pools. IcsETH is a highly secure offering by ClayStack that is aimed to cater to complex institutional and enterprise demands. 
+
+To mint IcsETH, users need to deposit a minimum amount of ETH to the protocol and undergo several compliance checks before they are whitelisted. In order to qualify for the whitelist, ClayStack defines KYC'd procedural checks for users to get onboarded. These steps will include KYC/AML checks, sanctions checks, and more. 
+
+IcsETH is created with a great emphasis on regulatory compliance. While they are not 1:1 tradeable with csETH, users can mint IcsETH from their csETH by opening overcolateralized positions and/or undergoing the same compliance checks. Similar to csETH, users do not need to restake their csETH to generate rewards. 
+
+ClayStack will also partner with custodians to offer superior management and security of IcsETH for whitelisted users. 

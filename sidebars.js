@@ -51,24 +51,13 @@ module.exports = {
       ],
       collapsed: true
     },
-    {
-      type: 'category',
-      label: 'Sonic',
-      items: [
-        'sonic/overview',
-        'sonic/architecture',
-        'sonic/fees',
-        'sonic/sonic',
-      ],
-    },
     'security',
-    {
-      type: 'category',
-      label: 'Developers',
-      items: [
-        'devs/sonic',
-      ],
-    },
+    // {
+    //   type: 'category',
+    //   label: 'Developers',
+    //   items: [
+    //   ],
+    // },
     // {
     //   type: 'category',
     //   label: 'Guides',

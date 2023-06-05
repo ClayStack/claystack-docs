@@ -56,11 +56,3 @@ csETH delivers better yields through active network management, MEV extraction, 
 
 Staking with ClayStack involves certain risks such as the possibility of slashing penalties for validators who fail to meet the required performance standards. However, ClayStack employs various mechanisms to mitigate these risks, including insurance through the Validator Funding Provider (VFP) protocol and rigorous security measures.
 
-How does ClayStack ensure KYC/AML compliance for permissioned pools? 
-
-ClayStack maintains a separate pool for KYC ringfenced users that wish to partake in the Ethereum liquid staking protocol. Once the users complete all the essential compliance checks, then they are able to stake in the protocol. The same applies for the permissioned pool of node operators.  
-
-How does ClayStack ensure KYC/AML compliance for permissioned pools? 
-
-ClayStack maintains a separate pool for KYC ringfenced users that wish to partake in the Ethereum liquid staking protocol. Once the users complete all the essential compliance checks, then they are able to stake in the protocol. The same applies for the permissioned pool of node operators.
-

@@ -1,5 +1,5 @@
 # IcsETH
-IcsETH is also a standard ERC20 token that represents the claim to both the underlying token and the staking rewards for deposits in KYC'd pools. IcsETH is a highly secure offering by ClayStack that is aimed to cater to complex institutional and enterprise demands. 
+IcsETH is a standard ERC20 token that represents the claim to both the underlying token and the staking rewards for deposits in KYC'd pools. IcsETH is a highly secure offering by ClayStack that is aimed to cater to complex institutional and enterprise demands. 
 
 To mint IcsETH, users need to deposit a minimum amount of ETH to the protocol and undergo several compliance checks before they are whitelisted. In order to qualify for the whitelist, ClayStack defines KYC'd procedural checks for users to get onboarded. These steps will include KYC/AML checks, sanctions checks, and more. 
 

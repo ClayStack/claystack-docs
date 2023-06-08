@@ -48,15 +48,7 @@ ClayStack's liquid staking solution will be subjected to comprehensive audits co
 
 ### Diversified Node operator/validator set 
 
-ClayStack Ethereum liquid staking is thoughtfully designed to cater to a wide range of validators and node operators, including diverse options such as home-run, professional, solo, and KYC pools, among others. This inclusive approach ensures that ClayStack opens up opportunities for stakers and delegators of all sizes, from small delegators to institutional-level investors. Whether you are an individual looking to start your staking journey or an organization seeking to maximize your staking potential, ClayStack provides a seamless onboarding experience, allowing you to participate in liquid staking and earn rewards effortlessly. 
-
-### Counter Party Risk & Compliance Mitigation
-
-ClayStack is committed to overcoming regulatory challenges, facilitating responsible development, and driving wider adoption. With a strong focus on compliance, the Ethereum liquid staking protocol actively engages in industry initiatives, advocates for regulatory clarity, and implements self-regulatory measures to ensure user safety and promote the secure growth of liquid staking. Institutions leveraging ClayStack's Ethereum liquid staking benefit from robust risk management practices, encompassing thorough due diligence checks and effective fraud prevention. Moreover, ClayStack strictly adheres to KYC/KYB/AML regulations, safeguarding against financial crimes and upholding compliance standards. 
-
-### Permissioned KYC/AML Pools 
-
-The ClayStack Ethereum liquid staking protocol ringfences users by a whitelist. To gain access to ClayStack's liquid staking services, they are required to undergo transparent KYC and AML checks. These checks are applicable to both stakers and node operators. 
+ClayStack Ethereum liquid staking is thoughtfully designed to cater to a wide range of validators and node operators, including diverse options such as home-run, professional, solo, and KYC pools, among others. This inclusive approach ensures that ClayStack opens up opportunities for stakers and delegators of all sizes, from small delegators to institutional-level investors. Whether you are an individual looking to start your staking journey or an organization seeking to maximize your staking potential, ClayStack provides a seamless onboarding experience, allowing you to participate in liquid staking and earn rewards effortlessly.  
 
 
 

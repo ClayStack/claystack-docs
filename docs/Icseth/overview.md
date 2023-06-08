@@ -15,28 +15,20 @@ ClayStack, designed in a modular fashion, encourages and rewards active involvem
 Capitalizing on the hybrid architecture and harnessing multiple DVT platforms, ClayStack enables participation from major institutions to individual home stakers in both the staking and validation processes. With enhanced reliability that permits lower bond requirements without sacrificing yields or reliability, ClayStack allows validators to participate with a minimum ETH bond requirements.
 
 ### Validator Funding Provider (VFP): Revolutionizing Validator Participation
-
-ClayStack is reshaping validator participation through the innovative Validator Funding Provider (VFP) protocol. This unique system enables node operators to create more nodes with direct funding, augmenting validator count without increasing bond commitment. It ensures low ETH bond requirements for validators while optimizing yields and impartially rewarding top performers, regardless of size or type.
+// TODO : confirm - not needed
 
 ### Algorithmic Network Balancing
 
 Employing a transparent algorithmic approach and active governance participation, ClayStack dynamically balances the staking process, encompassing deposits and withdrawals, among professional, non-professional, and top-performing validators. This strategic balancing promotes a decentralized, censorship-resistant, and fault-tolerant network of validators, reinforcing the robustness of the system.
 
 ### Superior Returns for Stakers
-
+// TODO : confirm
 ClayStack delivers the standard maximum rewards from the ecosystem, encompassing MEV capture. However, stakers can expect above-average yields due to enhanced reliability offered by DVT technology, as well as increased yields from Flash Exit rewards.
 
-### Enhanced Returns for Operator
-
-ClayStack's minimal bond requirements for participation in the validation process allows top-performing validators to utilize their proven track record (verifiable on L2 chains) to secure funding. This increases the number of validators without necessitating a rise in bond commitment, thereby making yields even more appealing.
 
 ### An Efficient Liquid Staking Tokens Market
-
-From its inception, ClayStack is integrated and supported in Sonic. Sonic, a liquid staking engine, is designed to combat stake centralization, streamline the user experience, and assist users in efficiently entering and exiting Liquid Staking Derivative (LSD) positions. Alongside other ETH liquid staking tokens, Sonic provides the necessary tools for LST to trade efficiently, thus advancing the entire ETH staking ecosystem and facilitating the onboarding of the next billion users to Ethereum.
-
-### Modularity & Ease of Access
-
-ClayStack incorporates L2s, enabling node operators to effortlessly manage nodes, receive rewards, and enter and exit directly on L2s, all without bearing excessive gas fees. The modularity of the protocol ensures that users can stake ETH, unstake it, and mint csETH - all on L2, thereby saving on transaction costs. 
+// TODO : confirm , yes we can add 
+maybe separate market on sonic for institutional tokens ?
 
 ### Insurance or Slashing Protection
 

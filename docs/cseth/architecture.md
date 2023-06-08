@@ -1,10 +1,10 @@
 # Architecture
 
-ClayStack offers a modular and composable design that combines a hybrid architecture whereby the liquid tokens are supported by a network of validating node leveraging various technologies. A modular DVT technology allows ClayStack to combine SSV, Obol, KYC-ring-fenced and public pools of nodes. At the same time, the operators are combined from professional node operators to small operators. The diversity provides a layer of redundancy and censorship resistance, while at the same time allows for full scalability and decentralization.
+ClayStack offers a modular and composable design that combines a hybrid architecture whereby the liquid tokens are supported by a network of validating node leveraging various technologies. A modular DVT technology allows ClayStack to combine SSV, Obol, public pools of nodes. At the same time, the operators are combined from professional node operators to small operators. The diversity provides a layer of redundancy and censorship resistance, while at the same time allows for full scalability and decentralization.
 
 ![cseth](../images/cseth.png)
 
-Read more about icsETH [here](./icsETH)
+Read more about csETH [here](./csETH)
 
 #### [DVT Modular Implementation](./dvt)
 

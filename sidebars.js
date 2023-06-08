@@ -10,16 +10,16 @@ module.exports = {
         'cseth/dvt',
         'cseth/vfp',
         'cseth/litepaper',
-//         {
-//           type: 'category',
-//           label: 'Node Operators',
-//           items: [
-//             'cseth/operators/overview',
-//             'cseth/operators/ssv',
-//             'cseth/operators/obol',
-//           ],
-//           collapsed: false
-//         },
+        {
+          type: 'category',
+          label: 'Node Operators',
+          items: [
+            'cseth/operators/overview',
+            'cseth/operators/ssv',
+            'cseth/operators/obol',
+          ],
+          collapsed: false
+        },
         'cseth/faq',
       ],
       collapsed: false

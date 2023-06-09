@@ -14,16 +14,10 @@ ClayStack, designed in a modular fashion, encourages and rewards active involvem
 
 Capitalizing on the hybrid architecture and harnessing multiple DVT platforms, ClayStack enables participation from major institutions to individual home stakers in both the staking and validation processes. With enhanced reliability that permits lower bond requirements without sacrificing yields or reliability, ClayStack allows validators to participate with a minimum ETH bond requirements.
 
-### Validator Funding Provider (VFP): Revolutionizing Validator Participation
-// TODO : confirm - not needed
 
 ### Algorithmic Network Balancing
 
 Employing a transparent algorithmic approach and active governance participation, ClayStack dynamically balances the staking process, encompassing deposits and withdrawals, among professional, non-professional, and top-performing validators. This strategic balancing promotes a decentralized, censorship-resistant, and fault-tolerant network of validators, reinforcing the robustness of the system.
-
-### Superior Returns for Stakers
-// TODO : confirm
-ClayStack delivers the standard maximum rewards from the ecosystem, encompassing MEV capture. However, stakers can expect above-average yields due to enhanced reliability offered by DVT technology, as well as increased yields from Flash Exit rewards.
 
 
 ### An Efficient Liquid Staking Tokens Market

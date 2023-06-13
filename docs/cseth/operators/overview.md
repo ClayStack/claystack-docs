@@ -12,10 +12,6 @@ ClayStack uses a dynamic bond requirement system to ensure incentives are aligne
 
 At registration, the supplied bond is converted to csETH, earning yield for the node operator and can be withdrawn at any time (subject to Exit conditions, if nodes are active).
 
-### SSV Initial Bond Requirement
-
-ClayStack's implementation of SSV brings 5 nodes for each validator. The initial bond requirement to run the first node is 1 ETH.
-
 
 ## Operator Performance Score
 
@@ -84,8 +80,7 @@ Penalties from non-compliant requested exits or forced exits.
 
 ### Other Adjustments
 
-Specific node types may have extra adjustments. Namely, SSV operators receive SSV tokens for their validation services. ClayStack will publish the pre-agreed SSV prices, and thus any variation from this will be adjusted in the final rewards calculation for the epoch.
-
+Specific node types may have additional adjustments based on their characteristics. Ultimately, net rewards will be equivalent for all nodes within the same performance bracket.
 
 ## Notifications
 

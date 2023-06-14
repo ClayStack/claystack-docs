@@ -21,8 +21,8 @@ Employing a transparent algorithmic approach and active governance participation
 
 
 ### An Efficient Liquid Staking Tokens Market
-// TODO : confirm , yes we can add 
-maybe separate market on sonic for institutional tokens ?
+From its inception, ClayStack is integrated and supported in Sonic. Sonic, a liquid staking engine, is designed to combat stake centralization, streamline the user experience, and assist users in efficiently entering and exiting Liquid Staking Derivative (LSD) positions. Alongside other ETH liquid staking tokens, Sonic provides the necessary tools for LST to trade efficiently, thus advancing the entire ETH staking ecosystem and facilitating the onboarding of the next billion users to Ethereum.
+
 
 ### Insurance or Slashing Protection
 

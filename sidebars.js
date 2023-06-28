@@ -10,6 +10,7 @@ module.exports = {
         'cseth/dvt',
         'cseth/vfp',
         'cseth/litepaper',
+        'cseth/oracle',
         {
           type: 'category',
           label: 'Node Operators',

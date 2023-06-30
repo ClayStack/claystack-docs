@@ -7,10 +7,10 @@ module.exports = {
       items: [
         'cseth/overview',
         'cseth/architecture',
+        'cseth/oracle',
         'cseth/dvt',
         'cseth/vfp',
         'cseth/litepaper',
-        'cseth/oracle',
         {
           type: 'category',
           label: 'Node Operators',

@@ -1,8 +1,8 @@
-# csETH Oracle
+# Oracle
 
 The csETH oracle, developed by ClayStack after extensive research and development, is a highly efficient, decentralized, and secure solution. Its primary function is to ensure the timely and accurate updating of crucial information regarding the protocol's validator nodes and transferring data from the consensus layer to the main chain (execution layer). The oracle specifically handles the update of information such as validator balances and exchange rates. This update process occurs approximately every 24 hours.
 
-The oracle has been designed to be run by any user, even on low-end machines, making it a cost-effective option. Initially, the oracle will be operated exclusively by ClayStack. However, there are plans to open doors for external entities in the future, allowing for the whitelisting of oracle operators beyond the core ClayStack team members.
+The oracle has been designed to be run by any user, even on low-end machines, making it a cost-effective option. Initially, the oracle will be a trusted list of whitelisted oracle operators. As the network grows the trusted network will be expanded and eventually the oracle will be fully decentralized.
 
 ![oracle](../images/oracle.png)
 
@@ -22,56 +22,19 @@ The oracle reporting function in the NodeManager smart contract is publicly acce
 
 Upon calling the reporting function, various metadata checks are performed to ensure the legitimacy of the data. Each signature is examined for faults and double usage to maintain uniqueness and security. Subsequently, each signature is used to recover the signer based on the given parameters, which include the original message containing the reporting information. If the recovered signer is recognized as a whitelisted oracle operator, the number of votes is incremented.
 
-Once the number of votes reaches the required quorum, the provided information is considered legitimate and is updated in the smart contract. However, if the votes do not meet the quorum, an event is emitted to indicate the update failure. The oracle operators, who constantly monitor these events, listen for events and initiate the re-updating process with the correct information by restarting the entire procedure.
+Once the number of votes reaches the required quorum, the provided information is considered legitimate and is updated in the smart contract. The oracle operators, who constantly monitor these events, listen for events and initiate the re-updating process with the correct information by restarting the entire procedure.
 
 ## Oracle reporting function in NodeManager.sol
 
 ### oracleReport() : 
 Consensus layer oracle reports on validators and balances.
 
-#### Function signature
-```sol
-function oracleReport(
-        uint256[] calldata _message,
-        bytes[] calldata _signatures
-    )
-```
+#### Function parameters
 
-#### Parameters:
-
-| Name      | Description                  |
-| --------- | ---------------------------- |
-| `_message` | Original message used for signature generation. |
-| `_signatures` | whitelisted oracle signatures. |
-
-
-#### `_message` structure:
-
-| Name         |  Description                  |
-| ------------ |  ---------------------------- |
-| `_reportBlock` |  Block number of the report. |
-| `_validatorsCount` | Number of validators on Consensus Layer. |
+| Name                 | Description                                            |
+|----------------------|--------------------------------------------------------|
+| `_reportBlock`       | Block number of the report.                            |
+| `_validatorsCount`   | Number of validators on Consensus Layer.               |
 | `_validatorsBalance` | Total balance of active validators on Consensus Layer. |
-| `_validatorsExited` | Number of validators exited. |
-
-
-#### Event emitted
-```sol
-    event LogOracleReport(
-        uint256 reportTimestamp,
-        uint256 validatorsCount,
-        uint256 validatorsBalance,
-        uint256 validatorsExited
-    );
-```
-
-```sol
- event LogOracleReportFailure(
-        address indexed oracle,
-        uint256 reportTimestamp,
-        uint256 validatorsCount,
-        uint256 validatorsBalance,
-        uint256 validatorsExited
-    );
-```
-
+| `_validatorsExited`  | Number of validators exited.                           |
+| `_signatures`        | Bytes array of whitelisted oracle signatures.                                       |

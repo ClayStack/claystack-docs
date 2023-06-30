@@ -21,4 +21,4 @@ ClayStack's implementation of SSV includes 4 nodes for each validator. The initi
 
 ClayStack offers competitive yields for operators through dynamic bond requirements and rewards sharing. Operators who provide quality uptime and active participation will receive good performance scores, which in turn increases their node allocation and returns.
 
-For SSV nodes, the rewards payment includes SSV Tokens and ETH rewards that are compounded and reinvested as csETH, which can be withdrawn at any time. Node Operators are free to set their own fees on the SSV Platform. At the end of an epoch, SSV rewards will account for the amount in SSV tokens paid out and net it out with the csETH payments, ensuring all SSV operators in the same performance bracket receive the same competitive yield.
+For SSV nodes, the rewards payment is in ETH compounded and reinvested as csETH, which can be withdrawn at any time. Node Operators are required to register as private nodes with zero SSV fee and whitelist ClayStack.

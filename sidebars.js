@@ -21,6 +21,7 @@ module.exports = {
           ],
           collapsed: false
         },
+        'cseth/deployed-contracts',
         'cseth/faq',
       ],
       collapsed: false

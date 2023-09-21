@@ -25,9 +25,19 @@ Note: Register using the same owner account as in SSV on ClayStack's Node Manage
 Follow these steps to add a new node:
 
 1. Visit the ClayStack Admin Dashboard website and connect using your admin wallet.
+![NM Landing](../../images/OB_1.png)
+
+
 2. Select the SSV network from the options.
+![NM Options](../../images/OB_2.png)
+
+
 3. The dashboard displays all your registered operators. To register a new operator, click on "Register a Node."
+![NM Dash](../../images/OB_3.png)
+
+
 4. Register the node using the SSV node operator ID.
+![NM Register](../../images/OB_4.png)
 
 
 #### Step 4: Review the Service-Level Agreement (SLA)

@@ -2,7 +2,7 @@
 
 #### ClayETH
 
-- ClayETH: [`0x5d74468b69073f809D4FaE90AfeC439e69Bf6263`](https://etherscan.io/address/0x5d74468b69073f809D4FaE90AfeC439e69Bf6263)
+- csETH: [`0x5d74468b69073f809D4FaE90AfeC439e69Bf6263`](https://etherscan.io/address/0x5d74468b69073f809D4FaE90AfeC439e69Bf6263)
 - ClayMain: [`0x331312DAbaf3d69138c047AaC278c9f9e0E8FFf8`](https://etherscan.io/address/0x331312DAbaf3d69138c047AaC278c9f9e0E8FFf8) (proxy)
 - NodeManager: [`0x349405b80C8bAfd74DA9d4308F3c7b60B4Bf10E5`](https://etherscan.io/address/0x349405b80C8bAfd74DA9d4308F3c7b60B4Bf10E5) (proxy)
 - DepositManager: [`0x09BA4EC4769Fd1C65f47F3006616182461182150`](https://etherscan.io/address/0x09BA4EC4769Fd1C65f47F3006616182461182150) (proxy)

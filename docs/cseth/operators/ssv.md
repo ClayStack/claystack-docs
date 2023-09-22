@@ -11,10 +11,9 @@ Ensure that you have received operator whitelist status within the Secret Shared
 Run SSV node(s) for ClayStack.For detailed instructions, refer to the Onboarding Guide. When configuring a new node in SSV for ClayStack, adhere to the following conditions:
 
 1. Register your node as a private node, allowing only ClayStack to delegate.
-2. Whitelist ClayStack within your nodes to facilitate the attachment of key shares by ClayStack.
-3. Set your SSV node fee to zero. Node operator fees will be paid in ETH to the node operator, and you can claim rewards using the ClayStack Node Operator Admin Dashboard.
-4. Ensure your node is active and ready for inclusion in a validation cluster.
-5. Activate notifications to stay informed about alerts from ClayStack.
+2. Set your SSV node fee to zero. Node operator fees will be paid in ETH to the node operator, and you can claim rewards using the ClayStack Node Operator Admin Dashboard.
+3. Ensure your node is active and ready for inclusion in a validation cluster.
+4. Activate notifications to stay informed about alerts from ClayStack.
 
 
 #### Step 3: Register with ClayStack's Node Management Dashboard

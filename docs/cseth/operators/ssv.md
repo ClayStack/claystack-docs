@@ -38,6 +38,9 @@ Follow these steps to add a new node:
 4. Register the node using the SSV node operator ID.
 ![NM Register](../../images/OB_4.png)
 
+5. Whitelist ClayStack for registered node
+![NM Whitelist](../../images/OB_5.png)
+
 
 #### Step 4: Review the Service-Level Agreement (SLA)
 ClayStack will provide you with a Service-Level Agreement (SLA). To proceed with delegation, both parties must agree to the terms outlined in the SLA. Carefully review the SLA and its conditions, confirming your acceptance with ClayStack.

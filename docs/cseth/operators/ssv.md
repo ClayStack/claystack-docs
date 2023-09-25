@@ -1,24 +1,23 @@
 # SSV Guide
 
-To onboard your node with ClayStack during the whitelist SSV mainnet phase, follow the following steps. Upon successfully completing the preceding steps, your nodes will become eligible to receive delegations from the ClayStack pool. For SSV nodes, the rewards payment is in ETH compounded, which can be withdrawn through ClayStack's Node Management Dashboard.
-
+To onboard your node with ClayStack during the whitelist SSV mainnet phase, follow the steps outlined below. Upon successfully completing the preceding steps, your nodes will become eligible to receive delegations from the ClayStack pool. For SSV nodes, rewards payment is in ETH, which can be withdrawn through ClayStack's Node Management Dashboard.
 
 ### Step 1: Verify Whitelisting in SSV
-Ensure that you have received operator whitelist status by directly registering through SSV.
+Ensure that you have received operator whitelist status by registering directly through SSV.
 
 ### Step 2: Set Up Your SSV Node
-Set up your client and register your new SSV node. You will need your operator id to register the node at ClayStack.
+Set up your client and register your new SSV node. You will need your operator ID to register the node with ClayStack.
 
 ### Step 3: Register with ClayStack's Node Management Dashboard
-Register your operator id at ClayStack's node management dashboard. You must register using the same owner account as in SSV in order for the verification to be succesful. Rewards will be claimed using this address exclusively.
+Register your operator ID on ClayStack's Node Management Dashboard. Make sure to use the same owner account as in SSV for successful verification. Rewards will be claimed using this address exclusively.
 
 https://app.claystack.com/nodes
 
 ### Step 4: SSV Node Settings
-For the new SSV node, ensure the following conditions have been set:
+For the new SSV node, ensure the following conditions are set:
 
-#### Step 4.1 Set Operator Whitelist: Add ClayStack to whitelist
-ClayStack's node management contract must be set to be in the whitelist. This can be accomplished by calling the `setOperatorWhitelist` on the SSVNetwork.sol smart contract. You can also trigger the transaction directly from ClayStack's dashboard.
+#### Step 4.1 Add ClayStack to the Whitelist
+Add ClayStack's node management contract to the whitelist. This can be accomplished by calling the setOperatorWhitelist function on the SSVNetwork.sol smart contract. You can also trigger the transaction directly from ClayStack's dashboard.
 
 For testnet:
 ```agsl
@@ -32,8 +31,8 @@ For mainnet:
 #### Step 4.2 Set 0% SSV Fees
 Set your SSV node fee to zero. Node operator fees will be paid in ETH to the node operator, and you can claim rewards using the ClayStack Node Operator Admin Dashboard.
 
-- First calling `declareOperatorFee`
-- Execute `executeOperatorFee`
+- First, call `declareOperatorFee`
+- Then, execute `executeOperatorFee`
 
 #### Step 4.3 Active Node
 Ensure your node is active and ready for inclusion in a validation cluster.

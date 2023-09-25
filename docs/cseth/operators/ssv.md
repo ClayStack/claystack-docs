@@ -1,29 +1,49 @@
 # SSV Guide
 
-### How to Onboard Your Node to ClayStack
-To onboard your node with ClayStack, follow these steps:
-
-#### Step 1: Verify Whitelisting in SSV
-Ensure that you have received operator whitelist status within the Secret Shared Validators (SSV) network.
+To onboard your node with ClayStack during the whitelist SSV mainnet phase, follow the following steps. Upon successfully completing the preceding steps, your nodes will become eligible to receive delegations from the ClayStack pool. For SSV nodes, the rewards payment is in ETH compounded, which can be withdrawn through ClayStack's Node Management Dashboard.
 
 
-#### Step 2: Set Up Your SSV Node
-Run SSV node(s) for ClayStack.For detailed instructions, refer to the Onboarding Guide. When configuring a new node in SSV for ClayStack, adhere to the following conditions:
+### Step 1: Verify Whitelisting in SSV
+Ensure that you have received operator whitelist status by directly registering through SSV.
 
-1. Register your node as a private node, allowing only ClayStack to delegate.
-2. Set your SSV node fee to zero. Node operator fees will be paid in ETH to the node operator, and you can claim rewards using the ClayStack Node Operator Admin Dashboard.
-3. Ensure your node is active and ready for inclusion in a validation cluster.
-4. Activate notifications to stay informed about alerts from ClayStack.
+### Step 2: Set Up Your SSV Node
+Set up your client and register your new SSV node. You will need your operator id to register the node at ClayStack.
 
+### Step 3: Register with ClayStack's Node Management Dashboard
+Register your operator id at ClayStack's node management dashboard. You must register using the same owner account as in SSV in order for the verification to be succesful. Rewards will be claimed using this address exclusively.
 
-#### Step 3: Register with ClayStack's Node Management Dashboard
-Register your public key with ClayStack to request whitelisting as an administrator. This step is crucial for managing and updating your SSV node within ClayStack.
+https://app.claystack.com/nodes
 
-Note: Register using the same owner account as in SSV on ClayStack's Node Management Dashboard. Rewards will be claimed using this address exclusively.
+### Step 4: SSV Node Settings
+For the new SSV node, ensure the following conditions have been set:
 
-Follow these steps to add a new node:
+#### Step 4.1 Set Operator Whitelist: Add ClayStack to whitelist
+ClayStack's node management contract must be set to be in the whitelist. This can be accomplished by calling the `setOperatorWhitelist` on the SSVNetwork.sol smart contract. You can also trigger the transaction directly from ClayStack's dashboard.
 
-1. Visit the ClayStack Admin Dashboard website and connect using your admin wallet.
+For testnet:
+```agsl
+"claystack_goerli": "0xF686837140B19113b598e7EC32a6405E61bc0FaB"
+```
+For mainnet:
+```agsl
+
+"claystack_mainnet": "0x87393BE8ac323F2E63520A6184e5A8A9CC9fC051"
+```
+#### Step 4.2 Set 0% SSV Fees
+Set your SSV node fee to zero. Node operator fees will be paid in ETH to the node operator, and you can claim rewards using the ClayStack Node Operator Admin Dashboard.
+
+- First calling `declareOperatorFee`
+- Execute `executeOperatorFee`
+
+#### Step 4.3 Active Node
+Ensure your node is active and ready for inclusion in a validation cluster.
+
+### Step 5: Review the Service-Level Agreement (SLA)
+ClayStack will provide you with a Service-Level Agreement (SLA). To proceed with delegation, both parties must agree to the terms outlined in the SLA. Carefully review the SLA and its conditions, confirming your acceptance with ClayStack.
+
+### Node Registration Guide
+
+1. Visit the ClayStack Admin Dashboard website and connect using your admin wallet. 
 ![NM Landing](../../images/OB_1.png)
 
 
@@ -41,22 +61,3 @@ Follow these steps to add a new node:
 5. Whitelist ClayStack for registered node
 ![NM Whitelist](../../images/OB_5.png)
 
-
-#### Step 4: Review the Service-Level Agreement (SLA)
-ClayStack will provide you with a Service-Level Agreement (SLA). To proceed with delegation, both parties must agree to the terms outlined in the SLA. Carefully review the SLA and its conditions, confirming your acceptance with ClayStack.
-
-#### Step 5: Completion of Onboarding
-Upon successfully completing the preceding steps, your nodes will become eligible to receive delegations from the ClayStack pool.
-
-
-[//]: # (TODO: Expand on the notification system)
-
-<!-- ### SSV Initial Bond Requirement
-
-ClayStack's implementation of SSV includes 4 nodes for each validator. The initial bond requirement to run the first node is 1 ETH. Subsequent nodes will require progressively less based on performance metrics. -->
-
-### SSV Token Payments & Rewards
-
-ClayStack offers competitive yields for operators through dynamic bond requirements and rewards sharing. Operators who provide quality uptime and active participation will receive good performance scores, which in turn increases their node allocation and returns.
-
-For SSV nodes, the rewards payment is in ETH compounded and reinvested as csETH, which can be withdrawn at any time. For withdrawal of rewards node operator can use ClayStack's Node Management Dashboard.

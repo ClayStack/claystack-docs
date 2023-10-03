@@ -6,7 +6,18 @@ To onboard your node with ClayStack during the whitelist SSV mainnet phase, foll
 Ensure that you have received operator whitelist status by registering directly through SSV.
 
 ### Step 2: Set Up Your SSV Node
-Set up your client and register your new SSV node. You will need your operator ID to register the node with ClayStack.
+1. Set up your client [Installation Guide](https://docs.ssv.network/run-a-node/operator-node/installation).
+   
+2. Enable MEV Boost in your client and SSV node [MEV Configuration](https://docs.ssv.network/run-a-node/operator-node/mev-configuration).
+
+   NOTE: Use Claystack NodeManager as Fee recipient.
+   ```agsl
+    "claystack_nodeManager": "0x349405b80C8bAfd74DA9d4308F3c7b60B4Bf10E5"
+   ``` 
+
+4. Register your SSV node with SSV contracts [Registration](https://docs.ssv.network/run-a-node/operator-node/registration). 
+
+5. You will need your operator ID to register the node with ClayStack.
 
 ### Step 3: Register with ClayStack's Node Management Dashboard
 Register your operator ID on ClayStack's Node Management Dashboard. Make sure to use the same owner account as in SSV for successful verification. Rewards will be claimed using this address exclusively.

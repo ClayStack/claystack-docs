@@ -10,7 +10,18 @@ Ensure that you have received operator whitelist status by registering directly 
    
 2. Enable MEV Boost in your client and SSV node [MEV Configuration](https://docs.ssv.network/run-a-node/operator-node/mev-configuration).
 
-   NOTE: Use Claystack NodeManager as Fee recipient.
+
+   NOTE: 
+   a. List of Claystack recommended relays 
+   ```
+   * Aestus 
+   * Agnostic Gnosis 
+   * BloXroute Max Profit 
+   * Manifold 
+   * Ultra Sound
+   ```
+   
+   b. Use Claystack NodeManager as Fee recipient.
    ```agsl
     "claystack_nodeManager": "0x349405b80C8bAfd74DA9d4308F3c7b60B4Bf10E5"
    ``` 

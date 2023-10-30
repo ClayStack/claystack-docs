@@ -12,7 +12,8 @@ Ensure that you have received operator whitelist status by registering directly 
 
 
    NOTE: 
-   a. List of Claystack recommended relays 
+   
+   a. List of Claystack recommended MEV relays for the Ethereum Mainnet network. 
    ```
    * Aestus 
    * Agnostic Gnosis 

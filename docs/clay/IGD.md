@@ -1,29 +1,38 @@
-# Claystack's Initial Governance Diversification (IGD) program
-The Initial Governance Diversification (IGD) mechanism is strategically designed to collectively engage Ethereum (ETH) users by providing compelling incentives for staking with us. Users actively participating in IGD have the opportunity to accumulate Clay Points, which will be seamlessly converted to $CLAY tokens at a 1:1 ratio.
-Users depositing $ETH in ClayStack's protocol can earn up to 40 clay points for every 1 $ETH deposited.
+# ClayStack's Innovative Initial Governance Diversification (IGD) Program
 
-# IGD Reward Calculation
-The weekly reward is determined by various factors, including the following points:
+ClayStack's Initial Governance Diversification (IGD) program is a meticulously crafted mechanism designed to collectively engage Ethereum (ETH) users, providing powerful incentives for staking within our ecosystem. Active participants in IGD gain the opportunity to accumulate Clay Points, seamlessly convertible to $CLAY tokens at a 1:1 ratio. Users depositing $ETH in ClayStack's protocol can earn up to 40 Clay Points for every 1 $ETH deposited.
 
-1. IGD distributes clay points for activities like staking and providing liquidity within the ClayStack protocol.More activities will be added soon.
-2. Each week establishes a floor and a ceiling for the distribution of clay points across different activities.
+## IGD Reward Calculation
 
-# Understanding Reward Rates for ETH Deposits
-## Base Rate:
-Users earn $CLAY through the Base Rate upon depositing $ETH.
-The Base Rate is adjusted to maintain a balance that attracts liquidity and influences the demand for csETH.
+The weekly reward calculation involves several key factors:
 
-## Weekly Stakers Rate:
-Increased stakers for the week result in a higher number of $CLAY earned by everyone.
-Weekly Deposits Rate:
-Higher ETH deposits for the week lead to an increased number of $CLAY earned by everyone.
-As the ClayStack protocol gains more users, the demand for csETH rises, subsequently increasing the distribution of $CLAY points. IGD acts like a speedometer, reflecting the level of user activity - it rises with increased deposits and decreases during periods of reduced activity. The exciting part? It refreshes every 7 days!
+1. **Clay Points Distribution:**
+   - IGD allocates Clay Points for activities such as staking and providing liquidity within the ClayStack protocol.
 
-## Boosted $CLAY Rewards and Vesting
-Users enjoy boosted $CLAY rewards during the IGD period.
-These boosted rewards start vesting after a 6-month period, ensuring users fully leverage the benefits of ClayStack's Ethereum liquid staking protocol.
+2. **Weekly Distribution Limits:**
+   - Each week establishes both a floor and a ceiling for the distribution of Clay Points across diverse activities.
 
-## Community-Driven Boosted Rewards
-Every time the Weekly Staker counter increases by 1 ETH, users earn an additional 0.1 $CLAY.
-Every time the Weekly Deposits counter increases by 100 ETH, users earn an additional 0.01 $CLAY.
-These rewards change weekly based on the number of deposits and stakers, offering the potential to consistently earn 40 $CLAY weekly for high deposits across consecutive weeks.
+## Understanding Reward Rates for csETH Deposits
+
+### Base Rate:
+Users earn $CLAY through the Base Rate upon depositing $ETH. The Base Rate is dynamically adjusted to maintain equilibrium, attracting liquidity and influencing the demand for csETH.
+
+### Boosted $CLAY Rewards and Vesting
+During the IGD period, users enjoy boosted $CLAY rewards. These enhanced rewards commence vesting after a 6-month period, ensuring users can fully capitalize on the benefits of ClayStack's Ethereum liquid staking protocol.
+
+### Community-Driven Boosted Rewards
+
+#### Weekly Depositor Rate:
+Increased stakers for the week result in a higher number of $CLAY earned by everyone. For every increase of 1 ETH in the Weekly Staker counter, users earn an additional 0.1 Clay Points.
+
+#### Weekly Deposit Rate:
+Higher ETH deposits for the week lead to an increased number of $CLAY earned by everyone. Every time the Weekly Deposits counter increases by 100 ETH, users earn an additional 0.01 Clay Points.
+
+As the ClayStack protocol gains more users, the demand for csETH rises, subsequently increasing the distribution of $CLAY points. IGD operates akin to a speedometer, reflecting user activity levels—rising with increased deposits and decreasing during periods of reduced activity. The exciting part? It refreshes every 7 days!
+
+## Bonus Mission
+
+### Referral
+Users can earn 10% of other users' base Clay Points by referring them using their unique referral link. To generate your referral link and receive a share of the referred entities' rewards, the user must be a csETH holder.
+
+### More Mission Coming Soon

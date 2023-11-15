@@ -3,6 +3,15 @@ module.exports = {
     'introduction',
     {
       type: 'category',
+      label: 'CLAY',
+      items: [
+        'clay/clayToken',
+        'clay/IGD',
+      ],
+      collapsed: false
+    },
+    {
+      type: 'category',
       label: 'csETH',
       items: [
         'cseth/overview',

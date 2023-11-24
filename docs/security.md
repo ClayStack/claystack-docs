@@ -7,7 +7,7 @@ At ClayStack, we take security very seriously. We invest in both creating secure
 ### csETH Ethereum
 ClayStack’s csETH for Ethereum has been audited by Nethermind, a leading blockchain security auditor. Its report helped bolster the security of the csETH contract by outlining vulnerabilities which were fixed.
 
-[Audit Report](https://chainsecurity.com/security-audit/claystack-matic/)
+[Audit Report](https://github.com/NethermindEth/PublicAuditReports/blob/main/NM0117-FINAL_CLAYSTACK.pdf)
 
 #### csMATIC Ethereum
 

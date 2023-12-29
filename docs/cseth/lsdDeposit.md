@@ -1,4 +1,4 @@
-# Minting csETH via LSD Deposits
+# Mint csETH via LSDs
 
 ClayStack allows users to mint csETH by depositing LSDs directly. Presently, ClayStack supports two major LSDs in the market: stETH and rETH. Upon depositing LSDs, users receive csETH at the current corresponding token rate of the deposited LSD.
 

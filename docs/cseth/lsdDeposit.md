@@ -12,19 +12,17 @@ stETH represents Liquid Staked Ether from Lido. Users can mint csETH by depositi
 
 ### Steps to Mint csETH using stETH
 
-1. Navigate to Claystack's staking app.
+1. Navigate to Claystack's staking app & Choose stETH in the stake tab.
 
-2. Choose stETH in the stake tab.
+2. Enter the amount of tokens to be deposited & approve the tokens.
 
-3. Enter the amount of tokens to be deposited and approve the token.
-
-4. Click 'Stake'.
+3. Click 'Stake'.
+![stETH Deposit](../images/lsdDeposits/lsdDeposit2.png)
 
 Note: Wait for the Unbonding Period.
 
-5. After the unbonding period, navigate to the Claim tab.
-
-6. Click 'Claim' on respective order.
+4. After the unbonding period, navigate to the Claim tab & Click 'Claim' on respective order.
+![stETH Deposit](../images/lsdDeposits/lsdDeposit3.png)
 
 
 ### rETH
@@ -34,11 +32,10 @@ Note: Ensure the liquidity pool has sufficient liquidity for seamless transactio
 
 ### Steps to Mint csETH using rETH
 
-1. Navigate to Claystack's staking app.
+1. Navigate to Claystack's staking app & Choose rETH in the stake tab.
 
-2. Choose rETH in the stake tab.
+2. Enter the amount of tokens to be deposited & approve the tokens.
 
-3. Enter the amount of tokens to be deposited and approve the token.
-
-4. Click 'Stake'.
+3. Click 'Stake'.
+![rETH Deposit](../images/lsdDeposits/lsdDeposit1.png)
 

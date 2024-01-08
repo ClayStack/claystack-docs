@@ -20,6 +20,7 @@ module.exports = {
         'cseth/dvt',
         'cseth/vfp',
         'cseth/litepaper',
+        'cseth/lsdDeposit',
         {
           type: 'category',
           label: 'Node Operators',

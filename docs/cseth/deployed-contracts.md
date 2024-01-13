@@ -14,8 +14,8 @@
 [`0x28F440B8BEba704D65743CAF205AC778b0d48C6c`](https://etherscan.io/address/0x28F440B8BEba704D65743CAF205AC778b0d48C6c) (implementation)
 
 - DepositManager:  
-[`0x09BA4EC4769Fd1C65f47F3006616182461182150`](https://etherscan.io/address/0x82E0707ABD5f6E25C06Af00d7dc7Cf1939B19c92) (proxy)  
-[`0x331312DAbaf3d69138c047AaC278c9f9e0E8FFf8`](https://etherscan.io/address/0x82E0707ABD5f6E25C06Af00d7dc7Cf1939B19c92) (implementation)
+[`0x09BA4EC4769Fd1C65f47F3006616182461182150`](https://etherscan.io/address/0x09BA4EC4769Fd1C65f47F3006616182461182150) (proxy)  
+[`0x82E0707ABD5f6E25C06Af00d7dc7Cf1939B19c92`](https://etherscan.io/address/0x82E0707ABD5f6E25C06Af00d7dc7Cf1939B19c92) (implementation)
 
 
 #### Governance

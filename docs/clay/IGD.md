@@ -33,6 +33,9 @@ As the ClayStack protocol gains more users, the demand for csETH rises, subseque
 ## Bonus Mission
 
 ### Referral
-Users can earn 10% of other users' base Clay Points by referring them using their unique referral link. To generate your referral link and receive a share of the referred entities' rewards, the user must be a csETH holder.
+Users can earn 10% of other users base Clay Points by referring them using their unique referral link. To generate your referral link and receive a share of the referred entities' rewards, the user must be a csETH holder.
+
+### Leaderboard
+Users can earn enhanced Clay Points rewards by attaining a top position on the Leaderboard. Users can secure their position by depositing ETH. The higher and longer the position is held, the more Clay Points the user earns. The Leaderboard position refreshes every 48 hours.
 
 ### More Mission Coming Soon

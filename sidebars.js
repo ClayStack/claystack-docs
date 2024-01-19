@@ -21,6 +21,7 @@ module.exports = {
         'cseth/vfp',
         'cseth/litepaper',
         'cseth/lsdDeposit',
+        'cseth/restaking',
         {
           type: 'category',
           label: 'Node Operators',

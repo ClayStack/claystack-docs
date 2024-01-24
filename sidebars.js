@@ -7,6 +7,7 @@ module.exports = {
       items: [
         'clay/clayToken',
         'clay/IGD',
+        'clay/rewardCalculation',
       ],
       collapsed: false
     },

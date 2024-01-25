@@ -11,12 +11,19 @@
 
 - NodeManager:  
 [`0x349405b80C8bAfd74DA9d4308F3c7b60B4Bf10E5`](https://etherscan.io/address/0x349405b80C8bAfd74DA9d4308F3c7b60B4Bf10E5) (proxy)  
-[`0x28F440B8BEba704D65743CAF205AC778b0d48C6c`](https://etherscan.io/address/0x28F440B8BEba704D65743CAF205AC778b0d48C6c) (implementation)
+[`0xdcf7dbe6865e52409a0fa2b4b23433db2af3646f`](https://etherscan.io/address/0xdcf7dbe6865e52409a0fa2b4b23433db2af3646f) (implementation)
 
 - DepositManager:  
 [`0x09BA4EC4769Fd1C65f47F3006616182461182150`](https://etherscan.io/address/0x09BA4EC4769Fd1C65f47F3006616182461182150) (proxy)  
-[`0x82E0707ABD5f6E25C06Af00d7dc7Cf1939B19c92`](https://etherscan.io/address/0x82E0707ABD5f6E25C06Af00d7dc7Cf1939B19c92) (implementation)
+[`0x82E0707ABD5f6E25C06Af00d7dc7Cf1939B19c92`](https://etherscan.io/address/0x82E0707ABD5f6E25C06Af00d7dc7Cf1939B19c92) (implementation)  
 
+- rETH Strategy:  
+[`0x0c82528Ce7337C2D0af469654331fa62ba753C0b`](https://etherscan.io/address/0x0c82528Ce7337C2D0af469654331fa62ba753C0b) (proxy)  
+[`0x3e6ea5e63ca289f827420c051e2ec6598940cdf5`](https://etherscan.io/address/0x3e6ea5e63ca289f827420c051e2ec6598940cdf5) (implementation)  
+
+- stETH Strategy:  
+[`0x6713AAA85838C9CC14C41158e01741F723671496`](https://etherscan.io/address/0x6713AAA85838C9CC14C41158e01741F723671496) (proxy)  
+[`0x36c48f0A77c38B447F2fF77926Ff1B8fA57D564E`](https://etherscan.io/address/0x36c48f0A77c38B447F2fF77926Ff1B8fA57D564E) (implementation)  
 
 #### Governance
 

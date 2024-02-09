@@ -7,6 +7,8 @@ Unlike other LST tokens deposited on EigenLayer, csETH remains unlocked, affordi
 
 Existing csETH holders won't need to take any action to initiate restaking; they'll automatically commence earning EigenLayer points once Claystack releases the restaking feature. For newcomers, simply depositing ETH, LST, or transferring restake positions and minting csETH kickstarts their journey toward earning dual rewards effortlessly.
 
+![restaking](../images/restaking.png)
+
 ### Native Re-staking 
 ETH holders can deposit ETH directly into Claystack to mint csETH and restake via EigenLayer's native restaking method. This enables ETH holders to earn EigenLayer points alongside CLAY points, as Claystack actively participates in restaking on the EigenLayer protocol. Notably, the use of native restaking by Claystack's csETH eliminates any maximum deposit cap. This means users can restake any amount of ETH, allowing them to earn restaking points on the entirety of their staked ETH without limitations.
 

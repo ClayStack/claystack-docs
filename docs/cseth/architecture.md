@@ -12,6 +12,12 @@ A modular DVT system is a novel approach to network security and decentralizatio
 
 ClayStack promotes decentralization by lowering the bond requirement for validators through a performance-based protocol. Validator Fund Providers (VFPs) contribute ETH to a high-risk pool, which is used to meet validator bond requirements. VFPs earn higher rewards but also share the associated risks with validators.
 
+#### Re-Staking 
+
+Claystack's introduces re-staking functionality through EigenLayer. csETH holders now have the opportunity to earn EigenLayer points in addition to CLAY points, as Claystack actively participates in restaking on the EigenLayer protocol. Claystack offers various methods for users to engage in restaking. If a user holds ETH, is already an LST holder, or is already participating in restaking, they can seamlessly mint csETH and start earning EigenLayer points along with Clay points.
+
+Unlike other LST tokens deposited on EigenLayer, csETH remains unlocked, granting users the flexibility to utilize it in various DeFi protocols while benefiting from dual rewards in CLAY and EigenLayer points.
+
 #### L2 Node Operator Management (L2NOM)
 
 Layer 2 Node Operator Management (L2NOM) is a cutting-edge protocol designed to streamline the management and interaction of node operators with csETH on Layer 2 (L2) chains. This protocol provides node operators with the tools necessary to claim rewards, submit proposals for node allocations, monitor their nodes, and maintain their performance reputation.

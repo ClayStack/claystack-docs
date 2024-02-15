@@ -33,7 +33,7 @@ The integration with Obol offers an extra layer of decentralization and security
 
 - Security and Trust: By distributing infrastructure management across a broad network of operators, Obol enhances the overall security of the system. It minimizes the risk associated with central points of control and promotes trust in the protocol.
 
-### Private & Public Pools
+### Direct Pools
 
 The integration of both private and public professional pools of nodes for validation within csETH is a groundbreaking development in the realm of liquid staking derivatives. Operators are able to provide ETH for staking while simultaneously taking advantage of the benefits of a liquid staking derivative. This integration introduces a novel layer of versatility and scalability to Ethereum staking.
 

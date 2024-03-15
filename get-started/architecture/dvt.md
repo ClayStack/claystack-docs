@@ -8,7 +8,7 @@ Combining several DVTs provides a layer of redundancy and further decentralizati
 
 Moreover, the integration of multiple DVTs fosters a more diverse and inclusive validator ecosystem. It allows for greater participation from different types of validators, ranging from individual home stakers to major institutions. This inclusivity strengthens the decentralization of the network, as it prevents any single group or entity from dominating the validation process. By combining several DVTs, we can create a more robust, resilient, and democratic network.
 
-![cseth](../../.gitbook/assets/dvt.png)
+<figure><img src="../../.gitbook/assets/DVT.png" alt=""><figcaption></figcaption></figure>
 
 ### SSV Integration
 

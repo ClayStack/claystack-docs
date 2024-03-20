@@ -4,7 +4,7 @@
 
 <figure><img src="../.gitbook/assets/Screenshot 2024-02-21 at 3.43.03 PM.png" alt=""><figcaption></figcaption></figure>
 
-Clay Points function as reward points within the ClayStack ecosystem and can be seamlessly converted into CLAY tokens following the Token Generation Event (TGE). This conversion occurs at a 1:1 ratio, establishing a direct correlation between Clay Points and CLAY tokens.
+Clay Points function as reward points within the ClayStack ecosystem and can be seamlessly converted into CLAY tokens following the Token Generation Event (TGE). This conversion occurs at a 1:1 ratio, establishing a direct correlation between Clay Points and CLAY tokens. The maximum total supply of CLAY token in capped at 100 million.
 
 ### Calculation
 

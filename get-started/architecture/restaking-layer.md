@@ -10,7 +10,7 @@ Existing csETH holders won't need to take any action to initiate restaking; they
 
 ### Native Re-staking
 
-<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/flows.png" alt=""><figcaption></figcaption></figure>
 
 ETH holders can deposit ETH directly into Claystack to mint csETH and restake via EigenLayer's native restaking method. This enables ETH holders to earn EigenLayer points alongside CLAY points, as Claystack actively participates in restaking on the EigenLayer protocol. Notably, the use of native restaking by Claystack's csETH eliminates any maximum deposit cap. This means users can restake any amount of ETH, allowing them to earn restaking points on the entirety of their staked ETH without limitations.
 
@@ -22,7 +22,7 @@ Note: The Native restaking mechanism from EigenLayer will eventually serve as th
 
 ### LST Re-staking
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/LST Staker.png" alt=""><figcaption></figcaption></figure>
 
 Claystack now accepts LSTs such as stETH, mETH, etc., to mint csETH and participate in restaking via EigenLayer. Upon depositing LST, csETH is minted to the user based on the current csETH rate, allowing users to hold the liquid staking token and participate in restaking simultaneously.
 
@@ -36,7 +36,7 @@ users can refer to EigenLayer's \[documentation] (https://docs.eigenlayer.xyz/ei
 
 ### Re-stake Transfer
 
-<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Restakers.png" alt=""><figcaption></figcaption></figure>
 
 Existing Eigen Layer re-stakers can also engage in Claystack restaking, earning dual rewards by transferring their restake position to Claystack. Upon the transfer of the position, csETH is minted for the user, enabling them to continue restaking while holding the liquid token (csETH) simultaneously. There are no caps on re-stake transfers, allowing users to transfer their restaking position to Claystack and begin earning Clay points alongside Eigen Layer points.
 
